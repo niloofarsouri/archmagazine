@@ -1,55 +1,24 @@
-// 'use client'
+'use client'
 
 import Link from "next/link"
-// import { useState } from "react"
+import { useState } from "react"
 
 
+function HeaderBurger() {
 
-function Myheader() {
+    const [open, setOpen] = useState(false)
 
-    // const [open, setOpen] = useState(false)
+    const handleOpen = () => {
+        setOpen(!open)
+    }
 
-    // const handleOpen = () => {
-    //     setOpen(!open)
-    // }
 
 
     return (
         <>
-            <div className="w-full h-14 bg-amber-50 text-black hidden md:flex justify-between">
-                <ul className="flex justify-baseline items-center">
-                    <Link href={'/'}>
-                        <li className="p-4">Home</li>
-                    </Link>
 
-                    <Link href={'/contact'}>
-                        <li className="p-4">Contact Us</li>
-                    </Link>
-
-                    <Link href={'/styles'}>
-                        <li className="p-4">Styles in Architecture</li>
-                    </Link>
-
-                    <Link href={'/Projects'}>
-                        <li className="p-4">Projects</li>
-                    </Link>
-                </ul>
-
-                <ul className="flex justify-around">
-                    <Link href={'/login'}>
-                        <li className="p-4">Login</li>
-                    </Link>
-
-                    <Link href={'/signup'}>
-                        <li className="p-4">SignUp</li>
-                    </Link>
-                </ul>
-            </div>
-
-
-
-            {/* <div className="w-full bg-opacity mt-0 md:hidden">
-                <button onClick={handleOpen}><img src="/icons/HamburgerMenu.png" className="w-[20px] h-[20px] p-1" /></button>
+            <div className="w-full min-h-screen bg-opacity mt-0 md:hidden">
+                <button onClick={handleOpen}><img src="/icons/HamburgerMenu.png" className="w-[30px] h-[30px] p-1" /></button>
                 {
                     open ?
                         <div className="max-w-3/5 min-h-screen bg-amber-50 text-black">
@@ -86,11 +55,11 @@ function Myheader() {
                         :
                         ''
                 }
-            </div> */}
+            </div>
 
         </>
     )
 }
 
 
-export default Myheader
+export default HeaderBurger

@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Arch-Magazine",
-  description: "arch-magazine is a journal about architecture and styles and you wellcome !",
+  title: "Arch Magazine",
+  description: "arch-magazine is a journal about architecture and styles and... you wellcome !",
 };
 
 export default function RootLayout({ children }) {
@@ -24,9 +24,11 @@ export default function RootLayout({ children }) {
 
     <html lang="en">
       <body>
-        <Myheader/>
+
+        <Myheader />
         {children}
-        <Myfooter/>
+        <Myfooter />
+
       </body>
     </html>
 
