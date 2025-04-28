@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
 export const metadata = {
   title: "Arch Magazine",
   description: "arch-magazine is a journal about architecture and styles and... you wellcome !",
@@ -23,7 +24,7 @@ export default function RootLayout({ children }) {
   return (
 
     <html lang="en">
-      <body>
+      <body className="font-primary">
 
         <Myheader />
         {children}

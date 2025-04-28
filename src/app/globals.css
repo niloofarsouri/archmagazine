@@ -5,12 +5,30 @@
   --foreground: #171717;
 }
 
-@theme inline {
+/* @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+} */
+
+@import url("/public/fonts/b-nazanin/B-NAZANIN.TTF");
+@theme {
+  --font-primary: "B-NAZANIN";
 }
+
+/* @font-face {
+  font-family: nazanin;
+  font-style: normal;
+  src: url("/public/fonts/b-nazanin/B-NAZANIN.TTF");
+}  */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@theme {
+  --font-roboto: "Roboto", sans-serif; 
+} */
+
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -21,6 +39,8 @@
 
 * {
   box-sizing: border-box;
+  /* font-family: nazanin; */
+  direction: rtl;
 }
 
 body {

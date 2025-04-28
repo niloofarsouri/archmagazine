@@ -1,17 +1,9 @@
-// 'use client'
-
 import Link from "next/link"
-// import { useState } from "react"
 
 
 
 function Myheader() {
 
-    // const [open, setOpen] = useState(false)
-
-    // const handleOpen = () => {
-    //     setOpen(!open)
-    // }
 
 
     return (
@@ -19,15 +11,17 @@ function Myheader() {
             <div className="w-full h-14 bg-amber-50 text-black hidden md:flex justify-between">
                 <ul className="flex justify-baseline items-center">
                     <Link href={'/'}>
-                        <li className="p-4">Home</li>
+                        <li className="p-4">صفحه اصلی</li>
                     </Link>
 
                     <Link href={'/contact'}>
-                        <li className="p-4">Contact Us</li>
+                        {/* <li className="p-4">Contact Us</li> */}
+                        <li className="p-4">تماس با ما</li>
                     </Link>
 
                     <Link href={'/styles'}>
-                        <li className="p-4">Styles in Architecture</li>
+                        {/* <li className="p-4">Styles in Architecture</li> */}
+                        <li className="p-4">سبک شناسی در معماری</li>
                     </Link>
 
                     <Link href={'/Projects'}>
@@ -46,47 +40,6 @@ function Myheader() {
                 </ul>
             </div>
 
-
-
-            {/* <div className="w-full bg-opacity mt-0 md:hidden">
-                <button onClick={handleOpen}><img src="/icons/HamburgerMenu.png" className="w-[20px] h-[20px] p-1" /></button>
-                {
-                    open ?
-                        <div className="max-w-3/5 min-h-screen bg-amber-50 text-black">
-
-                            <ul className="flex border-b-1 mb-2">
-                                <Link href={'/login'}>
-                                    <li className="p-2 text-xs">Login</li>
-                                </Link>
-
-                                <Link href={'/signup'}>
-                                    <li className="p-2 text-xs">SignUp</li>
-                                </Link>
-                            </ul>
-
-                            <ul className="flex-col">
-                                <Link href={'/'}>
-                                    <li className="p-2 text-xs">Home</li>
-                                </Link>
-
-                                <Link href={'/contact'}>
-                                    <li className="p-2 text-xs">Contact Us</li>
-                                </Link>
-
-                                <Link href={'/styles'}>
-                                    <li className="p-2 text-xs">Styles in Architecture</li>
-                                </Link>
-
-                                <Link href={'/Projects'}>
-                                    <li className="p-2 text-xs">Projects</li>
-                                </Link>
-                            </ul>
-
-                        </div>
-                        :
-                        ''
-                }
-            </div> */}
 
         </>
     )

@@ -10,7 +10,7 @@ function FirstAnimation() {
                 <div className="w-full h-auto p-3 mb-20 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2">
 
                     <div className="card first-card w-[18rem] h-auto m-1 mr-7 lg:relative lg:m-0">
-                        <img src="/images/img/arch.jpg" className="card-img-top" alt="..." />
+                        <img src="/images/img/barock1.jpg" className="card-img-top" alt="..." />
                         <div className="card-body p-3">
                             <h5 className="card-title">architecture</h5>
                             <p className="card-text">A general term to describe buildings and other physical structures. The
