@@ -8,8 +8,8 @@ function Myheader() {
 
     return (
         <>
-            <div className="w-full h-14 bg-amber-50 text-black hidden md:flex justify-between">
-                <ul className="flex justify-baseline items-center">
+            <div className="w-full h-14 bg-transparent text-white border-b-1 hidden md:flex justify-between">
+                <ul className="flex justify-baseline items-center text-xl">
                     <Link href={'/'}>
                         <li className="p-4">صفحه اصلی</li>
                     </Link>
@@ -25,7 +25,7 @@ function Myheader() {
                     </Link>
 
                     <Link href={'/Projects'}>
-                        <li className="p-4">Projects</li>
+                        <li className="p-4">پروژه ها</li>
                     </Link>
                 </ul>
 

@@ -35,19 +35,21 @@ function HeaderBurger() {
 
                             <ul className="flex-col">
                                 <Link href={'/'}>
-                                    <li className="p-2 text-xs">Home</li>
+                                    <li className="p-4">صفحه اصلی</li>
                                 </Link>
 
                                 <Link href={'/contact'}>
-                                    <li className="p-2 text-xs">Contact Us</li>
+                                    {/* <li className="p-4">Contact Us</li> */}
+                                    <li className="p-4">تماس با ما</li>
                                 </Link>
 
                                 <Link href={'/styles'}>
-                                    <li className="p-2 text-xs">Styles in Architecture</li>
+                                    {/* <li className="p-4">Styles in Architecture</li> */}
+                                    <li className="p-4">سبک شناسی در معماری</li>
                                 </Link>
 
                                 <Link href={'/Projects'}>
-                                    <li className="p-2 text-xs">Projects</li>
+                                    <li className="p-4">پروژه ها</li>
                                 </Link>
                             </ul>
 
