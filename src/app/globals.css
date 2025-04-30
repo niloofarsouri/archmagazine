@@ -13,6 +13,7 @@
 } */
 
 @import url("/public/fonts/b-nazanin/B-NAZANIN.TTF");
+
 @theme {
   --font-primary: "B-NAZANIN";
 }
@@ -85,8 +86,8 @@ body {
   height: auto;
   /* position: relative; */
   transition: 2s;
-  background-color: #fbecea;
-  color: black;
+  /* background-color: #fbecea; */
+  color: #001440;
 }
 
 .card:hover {
@@ -124,3 +125,100 @@ body {
 
 
 /*slide_second*/
+
+
+/* slide-third */
+
+.motion img {
+  width: 150px;
+}
+
+.motion_first {
+  animation: animation1 27s infinite alternate;
+}
+
+.motion_second {
+  animation: animation2 27s infinite alternate;
+}
+
+.motion_third {
+  animation: animation3 27s infinite alternate;
+}
+
+.motion_fourth {
+  animation: animation4 27s infinite alternate;
+}
+
+.motion_fifth {
+  animation: animation5 27s infinite alternate;
+}
+
+
+
+@keyframes animation1 {
+  0% {
+    transform: translate(-100px, -170px);
+  }
+
+  100% {
+    transform: translate(-200px, -100px);
+  }
+}
+
+@keyframes animation2 {
+  0% {
+    transform: translate(-140px, -70px);
+  }
+
+  50% {
+    transform: translate(100px, -200px);
+  }
+
+  100% {
+    transform: translate(-150px, -100px);
+  }
+}
+
+@keyframes animation3 {
+  0% {
+    transform: translate(-200px, -120px);
+  }
+
+  50% {
+    transform: translate(50px, -150px);
+  }
+
+  100% {
+    transform: translate(-100px, -80px);
+  }
+}
+
+@keyframes animation4 {
+  0% {
+    transform: translate(10px, -150px);
+  }
+
+  50% {
+    transform: translate(-80px, -100px);
+  }
+
+  100% {
+    transform: translate(120px, -100px);
+  }
+}
+
+@keyframes animation5 {
+  0% {
+    transform: translate(-200px, -150px);
+  }
+
+  50% {
+    transform: translate(50px, -150px);
+  }
+
+  100% {
+    transform: translate(-180px, -100px);
+  }
+}
+
+/* slide-third */

@@ -9,7 +9,7 @@ function FirstAnimation() {
             <section className="w-3/5 m-auto h-auto">
                 <div className="w-full h-auto p-3 mb-20 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2">
 
-                    <div className="card first-card w-[18rem] h-auto m-1 mr-7 bg-white hover:shadow-xl shadow-[#fff7e3] lg:relative lg:m-0">
+                    <div className="card first-card w-[18rem] h-auto m-1 mr-7 bg-[#e0d2b7] hover:shadow-xl shadow-[#fff7e3] lg:relative lg:m-0">
                         <img src="/images/img/barock1.jpg" className="card-img-top" alt="..." />
                         <div className="card-body p-3">
                             <h5 className="card-title">معماری (architecture)</h5>
@@ -21,7 +21,7 @@ function FirstAnimation() {
                     </div>
 
 
-                    <div className="card second-card w-[18rem] h-auto m-1 mr-7 bg-white hover:shadow-xl shadow-[#fff7e3] lg:relative lg:m-0">
+                    <div className="card second-card w-[18rem] h-auto m-1 mr-7 bg-[#e0d2b7] hover:shadow-xl shadow-[#fff7e3] lg:relative lg:m-0">
                         <img src="/images/img/memari-manzar.jpg" className="card-img-top" alt="..." />
                         <div className="card-body p-3">
                             <h5 className="card-title">معماری منظر (landscape architecture)</h5>
@@ -35,7 +35,7 @@ function FirstAnimation() {
                     </div>
 
 
-                    <div className="card third-card w-[18rem] h-auto m-1 mr-7 bg-white hover:shadow-xl shadow-[#fff7e3] lg:relative lg:m-0">
+                    <div className="card third-card w-[18rem] h-auto m-1 mr-7 bg-[#e0d2b7] hover:shadow-xl shadow-[#fff7e3] lg:relative lg:m-0">
                         <img src="/images/img/interior (1).jpg" className="card-img-top" alt="..." />
                         <div className="card-body p-3">
                             <h5 className="card-title">معماری داخلی (Interior Architecture)</h5>
@@ -47,7 +47,7 @@ function FirstAnimation() {
                     </div>
 
 
-                    <div className="card fourth-card w-[18rem] h-auto m-1 mr-7 bg-white hover:shadow-xl shadow-[#fff7e3] lg:relative lg:m-0">
+                    <div className="card fourth-card w-[18rem] h-auto m-1 mr-7 bg-[#e0d2b7] hover:shadow-xl shadow-[#fff7e3] lg:relative lg:m-0">
                         <img src="/images/img/light.webp" className="card-img-top" alt="..." />
                         <div className="card-body p-3">
                             <h5 className="card-title">معماری نورپردازی (Lighting architecture)</h5>

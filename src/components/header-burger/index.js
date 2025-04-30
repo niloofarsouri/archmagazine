@@ -21,7 +21,7 @@ function HeaderBurger() {
                 <button onClick={handleOpen}><img src="/icons/HamburgerMenu.png" className="w-[30px] h-[30px] p-1" /></button>
                 {
                     open ?
-                        <div className="max-w-3/5 min-h-screen bg-amber-50 text-black">
+                        <div className="max-w-3/5 min-h-screen bg-[#e0d2b7] text-black">
 
                             <ul className="flex border-b-1 mb-2">
                                 <Link href={'/login'}>

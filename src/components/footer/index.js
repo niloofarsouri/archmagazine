@@ -8,8 +8,8 @@ function Myfooter() {
     return (
         <>
             <div className="flex justify-between">
-                <div className="w-full bg-amber-50 h-[300px] p-8 flex justify-baseline items-center">
-                    <ul className="flex flex-col justify-center items-baseline text-black">
+                <div className="w-full bg-[#e0d2b7] h-[300px] p-8 flex justify-baseline items-center">
+                    <ul className="flex flex-col justify-center items-baseline text-[#001440]">
                         <Link href={'/'}>
                             <li className="p-4">صفحه اصلی</li>
                         </Link>
