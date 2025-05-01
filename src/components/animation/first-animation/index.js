@@ -6,7 +6,7 @@ function FirstAnimation() {
     return (
         <>
 
-            <section className="w-3/5 m-auto h-auto">
+            <section className="w-3/5 h-auto flex justify-center items-center md:m-auto">
                 <div className="w-full h-auto p-3 mb-20 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2">
 
                     <div className="card first-card w-[18rem] h-auto m-1 mr-7 bg-[#e0d2b7] hover:shadow-xl shadow-[#fff7e3] lg:relative lg:m-0">
