@@ -134,90 +134,94 @@ body {
 }
 
 .motion_first {
-  animation: animation1 27s infinite alternate;
+  animation: animation1 13s infinite alternate;
 }
 
 .motion_second {
-  animation: animation2 27s infinite alternate;
+  animation: animation2 13s infinite alternate;
 }
 
 .motion_third {
-  animation: animation3 27s infinite alternate;
+  animation: animation3 13s infinite alternate;
 }
 
 .motion_fourth {
-  animation: animation4 27s infinite alternate;
+  animation: animation4 13s infinite alternate;
 }
 
 .motion_fifth {
-  animation: animation5 27s infinite alternate;
+  animation: animation5 13s infinite alternate;
 }
 
 
 
 @keyframes animation1 {
   0% {
-    transform: translate(-100px, -170px);
+    transform: translate(-400px, -270px);
+  }
+
+  50% {
+    transform: translate(100px, 10px);
   }
 
   100% {
-    transform: translate(-200px, -100px);
+    transform: translate(-100px, -500px);
   }
 }
 
 @keyframes animation2 {
   0% {
-    transform: translate(-140px, -70px);
+    transform: translate(140px, -170px);
   }
 
   50% {
-    transform: translate(100px, -200px);
+    transform: translate(150px, -500px);
   }
 
   100% {
-    transform: translate(-150px, -100px);
+    transform: translate(-350px, -100px);
   }
 }
 
 @keyframes animation3 {
   0% {
-    transform: translate(-200px, -120px);
+    transform: translate(-400px, 50px);
   }
 
   50% {
-    transform: translate(50px, -150px);
+    transform: translate(-100px, -550px);
   }
 
   100% {
-    transform: translate(-100px, -80px);
+    transform: translate(100px, -200px);
   }
 }
 
 @keyframes animation4 {
   0% {
-    transform: translate(10px, -150px);
+    transform: translate(-200px, -550px);
   }
 
   50% {
-    transform: translate(-80px, -100px);
+    transform: translate(100px, -100px);
   }
 
   100% {
-    transform: translate(120px, -100px);
+    transform: translate(120px, -500px);
   }
 }
 
 @keyframes animation5 {
   0% {
-    transform: translate(-200px, -150px);
+    transform: translate(-200px, -500px);
   }
 
   50% {
-    transform: translate(50px, -150px);
+    transform: translate(-500px, 7px);
   }
 
   100% {
-    transform: translate(-180px, -100px);
+    transform: translate(180px, -400px);
   }
 }
 
