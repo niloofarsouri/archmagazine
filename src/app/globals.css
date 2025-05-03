@@ -134,23 +134,23 @@ body {
 }
 
 .motion_first {
-  animation: animation1 13s infinite alternate;
+  animation: animation1 27s infinite alternate;
 }
 
 .motion_second {
-  animation: animation2 13s infinite alternate;
+  animation: animation2 27s infinite alternate;
 }
 
 .motion_third {
-  animation: animation3 13s infinite alternate;
+  animation: animation3 27s infinite alternate;
 }
 
 .motion_fourth {
-  animation: animation4 13s infinite alternate;
+  animation: animation4 27s infinite alternate;
 }
 
 .motion_fifth {
-  animation: animation5 13s infinite alternate;
+  animation: animation5 27s infinite alternate;
 }
 
 
@@ -160,8 +160,16 @@ body {
     transform: translate(-400px, -270px);
   }
 
+  25% {
+    transform: translate(150px, 20px);
+  }
+
   50% {
     transform: translate(100px, 10px);
+  }
+
+  75% {
+    transform: translate(-200px, 30px);
   }
 
   100% {

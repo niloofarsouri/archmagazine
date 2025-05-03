@@ -1,14 +1,18 @@
+import SignupForm from "@/components/signup-form"
 
 
 
 
-function Signup(){
+function Signup() {
 
 
 
-    return(
+    return (
         <>
-        <h1>signup page</h1>
+            <h1>signup</h1>
+            <div className="w-full min-h-screen flex justify-center items-center">
+                <SignupForm />
+            </div>
         </>
     )
 }

@@ -8,27 +8,27 @@ function SecondAnimation() {
     return (
         <>
 
-            <div className="w-full h-[550px] border-l-1 border-r-1 hidden md:flex justify-between  items-center">
+            <div className="w-full h-[550px] border-l-1 border-r-1 hidden md:flex justify-between items-center md:overflow-hidden">
 
                 <div className="flex-1/2">
 
-                    <img src="/images/animationImg/stylist.jpg" className="z-1 relative" />
+                    <img src="/images/animationImg/stylist.jpg" className="z-1 relative  p-2" />
 
                     <div className="w-full p-3">
 
-                        <div class="motion motion_first z-100 absolute">
+                        <div className="motion motion_first z-100 absolute">
                             <img src="/images/animationImg/rococo1.jpg" alt="archImage6" />
                         </div>
-                        <div class="motion motion_second z-100 absolute">
+                        <div className="motion motion_second z-100 absolute">
                             <img src="/images/animationImg/rococo2.jpg" alt="archImage7" />
                         </div>
-                        <div class="motion motion_third z-100 absolute">
+                        <div className="motion motion_third z-100 absolute">
                             <img src="/images/animationImg/rococo5.jpg" alt="archImage8" />
                         </div>
-                        <div class="motion motion_fourth z-100 absolute">
+                        <div className="motion motion_fourth z-100 absolute">
                             <img src="/images/animationImg/rococo6.jpg" alt="archImage9" />
                         </div>
-                        <div class="motion motion_fifth z-100 absolute">
+                        <div className="motion motion_fifth z-100 absolute">
                             <img src="/images/animationImg/rococo7.jpg" alt="archImage10" />
                         </div>
 
