@@ -1,19 +1,19 @@
-import { cookies } from "next/headers"
+import { cookies } from "next/headers";
+import { NextResponse } from "next/server";
 import { SignJWT } from "jose"
-import { NextResponse } from "next/server"
 
 
-export async function POST(req) {
+export async function POST(request) {
 
-    const payload = await req.json()
-    console.log({ payload })
+    const payload = await request.json()
+    console.log(payload)
 
     const cookieStore = await cookies()
     const token = await generateJWT(payload)
-    const expire = new Date(Date.now() + 10 * 1000000)
-    cookieStore.set('accessToken', token, { httpOnly: true, expire })
+    const expires = new Date(Date.now() + 10 * 10000000)
+    cookieStore.set('accessToken', token, { httpOnly: true, expires })
 
-    return NextResponse.redirect(new URL('/'),request)
+    return NextResponse.redirect(new URL('/', request.url))
 }
 
 

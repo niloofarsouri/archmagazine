@@ -1,23 +1,23 @@
 'use client'
 
-import { SignupAction } from "@/actions/signup"
+
+import { handleSignup } from "@/action/Signup"
 import { useActionState, useRef, useState } from "react"
 
 
 
 function SignupForm() {
 
-    const [data, formAction, isPending] = useActionState(SignupAction, "ثبت نام کاربر")
+    const [data, formAction, isPending] = useActionState(handleSignup, "ثبت نام کاربر")
     const inputRefs = useRef({})
     const [error, setError] = useState(null)
 
     const handleSubmit = () => {
-
         const { username, password, number } = inputRefs.current
 
         fetch('/api/auth', {
             method: 'POST',
-            body: ({ username: username.value, password: password.value, number: number.value })
+            body: JSON.stringify({ username: username.value, password: password.value, number: number.value })
         })
             .then((res) => { })
             .catch((error) => error)
@@ -41,7 +41,7 @@ function SignupForm() {
                         name="username"
                         placeholder="نام کاربری"
                         className="p-2 my-2 border-slate-300 border-2 rounded"
-                        ref={(element) => inputRefs.current.username = element}
+                        ref={(element) => { inputRefs.current.username = element }}
                     />
 
                     <input
@@ -49,7 +49,7 @@ function SignupForm() {
                         name="password"
                         placeholder="رمزعبور"
                         className="p-2 my-2 border-slate-300 border-2 rounded"
-                        ref={(element) => inputRefs.current.password = element}
+                        ref={(element) => { inputRefs.current.password = element }}
                     />
 
                     <input
@@ -57,7 +57,7 @@ function SignupForm() {
                         name="number"
                         placeholder="شماره موبایل"
                         className="p-2 my-2 border-slate-300 border-2 rounded"
-                        ref={(element) => inputRefs.current.number = element}
+                        ref={(element) => { inputRefs.current.number = element }}
                     />
 
                     <input

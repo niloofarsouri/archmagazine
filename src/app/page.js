@@ -15,8 +15,8 @@ export default function Home() {
       {/* <section className="w-full h-auto"> */}
       <div className="w-full h-[300px] bg-no-repeat bg-cover mt-0 mb-0 
         md:bg-cover md:bg-top-right bg-[url(/images/bg-1.jpg)] md:w-full md:min-h-screen">
-        <HeaderBurger />
-        <Myheader />
+        {/* <HeaderBurger />
+        <Myheader /> */}
       </div>
       <div className="w-full h-auto flex flex-col justify-center items-center m-3">
 

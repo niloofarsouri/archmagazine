@@ -8,7 +8,7 @@ function Myheader() {
 
     return (
         <>
-            <div className="w-full h-14 bg-transparent text-[#e5d4b2] border-b-1 hidden md:flex justify-between items-center">
+            <div className="w-full h-14 bg-[#e5d4b2] text-[#001440] border-b-1 hidden md:flex justify-between items-center">
                 <ul className="flex justify-baseline items-center text-xl">
                     <Link href={'/'}>
                         <li className="p-4">صفحه اصلی</li>
@@ -34,9 +34,9 @@ function Myheader() {
                         <li className="p-1">Login</li>
                     </Link>
 
-                    <Link href={'/signup'}>
+                    {/* <Link href={'/signup'}>
                         <li className="p-1">SignUp</li>
-                    </Link>
+                    </Link> */}
                 </ul>
             </div>
 

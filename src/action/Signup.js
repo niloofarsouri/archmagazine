@@ -7,7 +7,8 @@ import { NextResponse } from 'next/server';
 import { redirect } from 'next/navigation'
 import { revalidatePath } from 'next/cache'
 import { cookies } from 'next/headers';
-import { json } from 'stream/consumers';
+
+const FILE_PATH = path.join(process.cwd(), 'public/users.json')
 
 const schema = yup.object().shape({
     username: yup.string().required("should fill username"),
@@ -15,39 +16,71 @@ const schema = yup.object().shape({
     number: yup.number().required("should fill password"),
 })
 
-const FILE_PATH = path.join(process.cwd(), 'public/users.json')
 
-export async function SignupAction(initialValue, formData) {
+export async function handleSignup(initialValue, formData) {
 
     console.log({ formData })
+
     const cookieStore = await cookies()
+    // const cookie = cookieStore.get('accessToken').value
     const authToken = cookieStore.get('accessToken')
+    console.log(authToken)
 
     const username = formData.get('username')
     const password = formData.get('password')
     const number = formData.get('number')
+    // const userId = formData.get('userId')
     const user = { username, password, number, authToken }
     console.log({ user })
 
     try {
         const validData = await schema.validate(user)
+        console.log(validData)
         Object.assign(validData, { userId: (Math.floor(Math.random() * 1000000)) })
-        const userData = await readUsers()
+        const userData = await readUser()
         userData.push(validData)
         await writeUser(userData)
 
     } catch (error) {
         return error.message
     }
+
+    // return 'saved !'
+    revalidatePath('/dashboard')
+    redirect('/dashboard')
 }
 
 
-export const readUsers = async () => {
-    const dataUser = await fs.readFile(FILE_PATH)
-    const data = await JSON.parse(dataUser)
+
+export const readUser = async () => {
+    const readData = await fs.readFile(FILE_PATH)
+    const data = await JSON.parse(readData)
     return data
 }
+
 
 export const writeUser = async (data) => {
     await fs.writeFile(FILE_PATH, JSON.stringify(data))
 }
+
+
+export const getById = async (userId) => {
+    const userData = await readUser()
+    const selectId = userData.find(item => item.id === +userId)
+    return selectId
+}
+
+
+export const getByUsername = async (usernameUser) => {
+    const data = await readUser()
+    const selected = data.find(item => item.username === usernameUser)
+    return selected
+}
+
+
+export const getByPassword = async (passwordUser) => {
+    const userData = await readUser()
+    const data = userData.find(item => item.password == passwordUser)
+    return data
+}
+
