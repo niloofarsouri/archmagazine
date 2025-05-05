@@ -5,8 +5,7 @@ import { redirect } from 'next/dist/server/api-utils';
 import { cookies } from 'next/headers';
 import { permanentRedirect } from 'next/navigation';
 import { NextResponse } from 'next/server';
-import { getByPassword, getByUsername } from '@/actions/signup';
-
+import { getByPassword, getByUsername } from './Signup';
 
 
 export async function LoginAction(initialValue, formData) {

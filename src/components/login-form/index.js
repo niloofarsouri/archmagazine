@@ -1,6 +1,6 @@
 'use client'
 
-import { LoginAction } from '@/actions/login'
+import { LoginAction } from "@/action/Login"
 import Link from "next/link"
 import { useActionState } from "react"
 
