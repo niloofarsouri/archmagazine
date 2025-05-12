@@ -2,13 +2,13 @@ import Link from "next/link"
 
 
 
-function Myheader() {
+function PagesHeader() {
 
 
 
     return (
         <>
-            <div className="w-full h-14 mt-0 bg-transparent text-[#e5d4b2] border-b-1 z-50 hidden md:flex justify-between items-center">
+            <div className="w-full h-14 mt-0 bg-[#e5d4b2] text-[#080808] border-b-1 hidden md:flex justify-between items-center">
                 <ul className="flex justify-baseline items-center text-xl">
                     <Link href={'/'}>
                         <li className="p-4">صفحه اصلی</li>
@@ -42,4 +42,4 @@ function Myheader() {
 }
 
 
-export default Myheader
+export default PagesHeader

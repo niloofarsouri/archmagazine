@@ -25,4 +25,4 @@ function LogoutClick({ cookieStore }) {
 }
 
 
-export default LogoutClick
+export default LogoutClick   
