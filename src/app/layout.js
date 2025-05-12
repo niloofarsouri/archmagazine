@@ -8,7 +8,6 @@ import HeaderBurger from "@/components/header-burger";
 import { headers } from "next/headers";
 import PagesHeader from "@/components/header-other-pages";
 
-
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
 //   subsets: ["latin"],
@@ -37,20 +36,25 @@ export default async function RootLayout({ children }) {
     <html lang="en">
       <body className="font-primary overflow-x-hidden bg-white dark:bg-[#080808] dark:text-[#e0d2b7]">
 
+        {/* <div className="w-full h-[300px] bg-no-repeat bg-cover mt-0 mb-0 
+        md:bg-cover md:bg-top-right bg-[url(/images/bg-1.jpg)] md:w-full md:min-h-screen">
+          <HeaderBurger />
+          <Myheader />
+        </div> */}
+        {/* {
+          cookie ?
+            <MyHeaderLogout />
+            :
+            <Myheader />
+        } */}
+
         {
           (dataHeaders === '/') ?
-            <div className="w-full h-[300px] bg-no-repeat bg-cover mt-0 mb-0 
-        md:bg-cover md:bg-top-right bg-[url(/images/bg-1.jpg)] md:w-full md:min-h-screen">
-              <Myheader />
-              <HeaderBurger />
-            </div>
-
-            : 
-
-            <div className="w-full mt-o">
-              <PagesHeader />
-              <HeaderBurger />
-            </div>
+            ''
+            :
+            (<PagesHeader />
+              ||
+              <HeaderBurger />)
         }
 
         {children}
@@ -61,43 +65,3 @@ export default async function RootLayout({ children }) {
 
   );
 }
-
-
-
-
-
-
-
-
-
-// (dataHeaders === '/') ?
-
-//   <html lang="en">
-//     <body className="font-primary overflow-x-hidden bg-white dark:bg-[#080808] dark:text-[#e0d2b7]">
-
-//       <div className="w-full h-[300px] bg-no-repeat bg-cover mt-0 mb-0
-//     md:bg-cover md:bg-top-right bg-[url(/images/bg-1.jpg)] md:w-full md:min-h-screen">
-//         <Myheader />
-//         <HeaderBurger />
-//       </div>
-//       {children}
-//       <Myfooter />
-
-//     </body>
-//   </html>
-
-//   :
-
-//   <html lang="en">
-//     <body className="font-primary overflow-x-hidden bg-white dark:bg-[#080808] dark:text-[#e0d2b7]">
-
-//       <div className="w-full h-auto">
-//         <PagesHeader />
-//         <HeaderBurger />
-//       </div>
-
-//       {children}
-//       <Myfooter />
-
-//     </body>
-//   </html>
