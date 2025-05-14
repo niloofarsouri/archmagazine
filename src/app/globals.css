@@ -68,12 +68,12 @@ body {
 
 
 .first-card {
-  z-index: 5;
+  z-index: 1;
   /* top: 60px; */
 }
 
 .second-card {
-  z-index: 6;
+  z-index: 2;
 }
 
 .third-card {
@@ -82,20 +82,20 @@ body {
 }
 
 .fourth-card {
-  z-index: 7;
+  z-index: 4;
 }
 
 .card {
   height: auto;
   /* position: relative; */
-  transition: 2s;
+  transition: .2s;
   /* background-color: #fbecea; */
   color: #001440;
 }
 
 .card:hover {
   transform: translateY(-60px);
-  transition: 1s;
+  transition: .2s;
   z-index: 1000;
 }
 

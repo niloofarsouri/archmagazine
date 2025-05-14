@@ -26,7 +26,7 @@ export default function Home() {
 
 
 
-        <div className="w-full min-h-screen flex flex-col justify-center items-center m-3 p-1">
+        <div className="w-full min-h-screen flex flex-col justify-center items-center">
 
           <div className="w-3/5 h-300px mt-25 md:m-[150px] p-8 flex justify-center items-center text-[#001440] dark:text-white ">
             <p className="p-4 text-xs text-justify md:text-xl">معماری هنر و تکنیک طراحی و ساخت است که از مهارت های مرتبط با ساخت متمایز می شود. این هم فرآیند و هم محصول طراحی، تصور، برنامه ریزی، طراحی و ساخت ساختمان ها یا سازه های دیگر است. این اصطلاح از لاتین architectura گرفته شده است. از یونان باستان ἀρχιτέκτων (arkhitéktōn) 'معمار'; از ἀρχι- (arkhi-) 'رئیس'، و τέκτων (téktōn) 'خالق'. آثار معماری، در شکل مادی ساختمان ها، اغلب به عنوان نمادهای فرهنگی و به عنوان آثار هنری تلقی می شوند. تمدن های تاریخی اغلب با دستاوردهای معماری بازمانده خود شناسایی می شوند.</p>
