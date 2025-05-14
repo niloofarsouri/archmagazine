@@ -1,22 +1,10 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Myheader from "@/components/header-root";
 import Myfooter from "@/components/footer";
 // import { cookies } from "next/headers";
 // import MyHeaderLogout from "@/components/header-logout";
 import HeaderBurger from "@/components/header-burger";
 import { headers } from "next/headers";
-import PagesHeader from "@/components/header-other-pages";
 
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
 
 export const metadata = {
   title: "Arch Magazine",
