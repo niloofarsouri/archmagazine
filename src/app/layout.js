@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Myheader from "@/components/header";
+import Myheader from "@/components/header-root";
 import Myfooter from "@/components/footer";
 // import { cookies } from "next/headers";
 // import MyHeaderLogout from "@/components/header-logout";
@@ -34,7 +34,7 @@ export default async function RootLayout({ children }) {
   return (
 
     <html lang="en">
-      <body className="font-primary overflow-x-hidden bg-white dark:bg-[#080808] dark:text-[#e0d2b7]">
+      <body className="dark:bg-[#080808] dark:text-[#e0d2b7]">
 
         {/* <div className="w-full h-[300px] bg-no-repeat bg-cover mt-0 mb-0 
         md:bg-cover md:bg-top-right bg-[url(/images/bg-1.jpg)] md:w-full md:min-h-screen">
@@ -48,15 +48,15 @@ export default async function RootLayout({ children }) {
             <Myheader />
         } */}
 
-        {
+        {/* {
           (dataHeaders === '/') ?
             ''
             :
-            (<PagesHeader />
-              ||
-              <HeaderBurger />)
-        }
+            <PagesHeader />
+        } */}
 
+        {/* <Myheader /> */}
+        <HeaderBurger />
         {children}
         <Myfooter />
 

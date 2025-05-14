@@ -8,13 +8,13 @@ function SecondAnimation() {
     return (
         <>
 
-            <div className="w-full h-[550px] border-l-1 border-r-1 hidden md:flex justify-between items-center md:overflow-hidden">
+            <div className="w-full h-[550px] border-l-1 border-r-1 hidden md:flex justify-between items-center">
 
                 <div className="flex-1/2">
 
-                    <img src="/images/animationImg/stylist.jpg" className="z-1 relative  p-2" />
+                    <img src="/images/animationImg/stylist.jpg" className="z-1 p-2" />
 
-                    <div className="w-full p-3">
+                    <div className="w-full p-3 relative">
 
                         <div className="motion motion_first z-100 absolute">
                             <img src="/images/animationImg/rococo1.jpg" alt="archImage6" />
