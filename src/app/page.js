@@ -16,7 +16,7 @@ export default function Home() {
           <div className="w-full h-[400px] md:max-h-screen bg-[url(/images/sky.jpg)] bg-no-repeat bg-cover relative mb-60 flex justify-center items-center text-center ">
             <div className="w-full absolute top-0"><RootHeader /></div>
 
-            <div className="absolute top-45 md:top-29 lg:top-28 xl:top-30">
+            <div className="absolute top-45 md:top-31 lg:top-28 xl:top-30">
               <p className="text-white lg:text-[210px] xl:text-[250px] opacity-55 text-center font-primary hidden lg:block">ARCH MAG</p>
               <p className="text-white text-[150px] md:text-[200px] opacity-55 text-center font-primary lg:hidden">ARCH</p>
             </div>
