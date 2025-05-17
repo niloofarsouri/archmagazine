@@ -1,3 +1,4 @@
+import Myfooter from "@/components/footer";
 import PagesHeader from "@/components/header-other-pages";
 
 
@@ -16,14 +17,11 @@ export default function Layout({ children }) {
 
 
 
-        <div className="w-full">
-            <div className="w-full h-[50px] bg-[#E0D2B7] text-[#080808]">
-                <PagesHeader/>
-            </div>
-
-
+        <>
+            <PagesHeader />
             {children}
-        </div>
+            <Myfooter />
+        </>
 
     );
 }

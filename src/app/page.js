@@ -1,5 +1,6 @@
 import FirstAnimation from "@/components/animation/first-animation";
 import SecondAnimation from "@/components/animation/second-animation";
+import Myfooter from "@/components/footer";
 import RootHeader from "@/components/header-root";
 
 
@@ -13,17 +14,17 @@ export default function Home() {
       <section className="w-full min-h-screen">
 
         <div className="w-full min-h-screen mb-50 md:h-[750px]">
-          <div className="w-full h-[400px] md:max-h-screen bg-[url(/images/sky.jpg)] bg-no-repeat bg-cover relative mb-60 flex justify-center items-center text-center ">
+          <div className="w-full h-[400px] md:max-h-screen bg-[url(/backgroundSky.jpg)] bg-no-repeat bg-cover relative mb-60 flex justify-center items-center text-center ">
             <div className="w-full absolute top-0"><RootHeader /></div>
 
-            <div className="absolute top-45 md:top-31 lg:top-28 xl:top-30">
+            <div className="absolute top-35 md:top-31 lg:top-28 xl:top-30">
               <p className="text-white lg:text-[210px] xl:text-[250px] opacity-55 text-center font-primary hidden lg:block">ARCH MAG</p>
               <p className="text-white text-[150px] md:text-[200px] opacity-55 text-center font-primary lg:hidden">ARCH</p>
             </div>
             <div className="w-full min-h-screen bg-[url(/images/bg-2.png)] bg-no-repeat bg-cover absolute top-50 z-50"></div>
           </div>
         </div>
-        <hr />
+        <br />
 
 
         <div className="w-full min-h-screen mt-10 flex flex-col justify-center items-center">
@@ -51,6 +52,7 @@ export default function Home() {
 
       </section>
 
+      <Myfooter />
     </>
   );
 }

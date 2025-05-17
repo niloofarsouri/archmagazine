@@ -24,7 +24,7 @@ function RootHeader() {
                         <li className="p-4">سبک شناسی در معماری</li>
                     </Link>
 
-                    <Link href={'/Projects'}>
+                    <Link href={'/projects'}>
                         <li className="p-4">پروژه ها</li>
                     </Link>
                 </ul>

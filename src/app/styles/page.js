@@ -12,9 +12,12 @@ function Styles(){
 
     return(
         <>
-        <div className="w-3/4 h-[50px] bg-radial-[at_50%_75%] from-white to-zinc-900 to-90% p-5">
-            <h1>سبک شناسی در معماری</h1>
-        </div>
+        {/* <div className="w-3/4 h-[50px] bg-radial-[at_50%_75%] from-white to-zinc-900 to-90% p-5"> */}
+            {/* <h1>سبک شناسی در معماری</h1> */}
+        {/* </div> */}
+
+        {/* <div className="w-full max-h-screen bg-[url(/images/  )]"></div> */}
+
         </>
     )
 }

@@ -13,7 +13,7 @@ async function MyHeaderLogout() {
         <>
             <header className="flex w-full h-auto">
 
-                <div className="w-full h-14 bg-[#e5d4b2] text-[#001440] border-b-1 hidden md:flex justify-between items-center">
+                <div className="w-full h-14 bg-[#e5d4b2] text-[#001440] hidden md:flex justify-between items-center">
                     <ul className="flex justify-baseline items-center text-xl">
                         <Link href={'/'}>
                             <li className="p-4">صفحه اصلی</li>

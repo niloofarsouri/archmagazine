@@ -1,7 +1,4 @@
 import "./globals.css";
-import Myfooter from "@/components/footer";
-// import { cookies } from "next/headers";
-// import MyHeaderLogout from "@/components/header-logout";
 import HeaderBurger from "@/components/header-burger";
 import { headers } from "next/headers";
 
@@ -36,17 +33,9 @@ export default async function RootLayout({ children }) {
             <Myheader />
         } */}
 
-        {/* {
-          (dataHeaders === '/') ?
-            ''
-            :
-            <PagesHeader />
-        } */}
-
-        {/* <Myheader /> */}
         <HeaderBurger />
         {children}
-        <Myfooter />
+        {/* <Myfooter /> */}
 
       </body>
     </html>

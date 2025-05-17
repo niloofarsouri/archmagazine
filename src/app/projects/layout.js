@@ -1,14 +1,16 @@
-import Link from "next/link"
-import Image from "next/image"
+import Link from "next/link";
+import Image from "next/image";
 
 
 
-function Myfooter() {
-
+export default function Layout({ children }) {
 
     return (
+
         <>
-            <div className="flex justify-between items-center bg-[#e0d2b7] text-[#080808]">
+            {children}
+
+            <div className="flex justify-between items-center bg-transparent text-[#080808]">
                 <div className="flex-1/2  h-[300px] p-8 flex justify-baseline items-center">
                     <ul className="flex flex-col justify-center items-baseline ">
                         <Link href={'/'}>
@@ -44,8 +46,6 @@ function Myfooter() {
                 </div>
             </div>
         </>
-    )
+
+    );
 }
-
-
-export default Myfooter
