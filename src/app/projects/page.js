@@ -18,10 +18,10 @@ function Projects() {
         <>
             <div className="w-full max-h-screen mb-[50px]">
                 <PagesHeaderTransparent />
-                <div className="w-full h-[600px] bg-[url(/images/img/project-6.jpg)] bg-no-repeat bg-contain md:bg-cover opacity-60"></div>
+                <div className="w-full h-[200px] md:h-[600px] bg-[url(/images/img/project-6.jpg)] bg-no-repeat bg-contain md:bg-cover opacity-60"></div>
             </div>
 
-            <div className="w-full min-h-screen grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white">
+            <div className="w-full min-h-screen p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white">
                 <div className="h-1/2 p-1 m-3 border-1 flex justify-center items-center">Project 1</div>
                 <div className="h-1/2 p-1 m-3 border-1 flex justify-center items-center">Project 2</div>
                 <div className="h-1/2 p-1 m-3 border-1 flex justify-center items-center">Project 3</div>

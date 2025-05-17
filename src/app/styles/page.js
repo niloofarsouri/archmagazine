@@ -1,3 +1,4 @@
+import PagesHeaderTransparent from "@/components/header-other-pages-transparent";
 
 
 
@@ -8,15 +9,63 @@ export const metadata = {
 
 
 
-function Styles(){
+function Styles() {
 
-    return(
+    return (
         <>
-        {/* <div className="w-3/4 h-[50px] bg-radial-[at_50%_75%] from-white to-zinc-900 to-90% p-5"> */}
-            {/* <h1>سبک شناسی در معماری</h1> */}
-        {/* </div> */}
+            <div className="w-full h-[200px] mb-3 md:mb-15 md:h-[600px] bg-[url(/images/img/rustic.jpg)] bg-no-repeat bg-cover opacity-60">
+                <PagesHeaderTransparent />
+            </div>
 
-        {/* <div className="w-full max-h-screen bg-[url(/images/  )]"></div> */}
+
+            <div className="w-full min-h-screen bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
+                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
+                    <img src="/images/img/rustic.jpg" className="hover:scale-110 duration-150 ease-in-out" alt="archImage16" />
+                    <h4 className="mt-3">Rustic</h4>
+                    <span>Rustic interior design represents a natural, rough, aged, and casual design style. The
+                        category is broad and incorporates a range of variations on the style, including Tuscan,
+                        coastal, cottage and modern rustic.Most things came straight from the earth and,
+                        therefore, had a naturally organic and rustic nature. In this traditional sense, rustic design
+                        might seem heavy and dark. Today, however, a more contemporary rustic style has emerged with a
+                        fresh and light aesthetic.raw wood is one of the most common materials used to create a rustic
+                        style interior. This can be incorporated into your space with individual pieces of furniture and
+                        in the form of ceiling beams, and wood trims around doors, windows and fireplaces.</span>
+                </div>
+
+                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
+                    <img src="/images/img/scandinavian-interior.jpg" className="hover:scale-110 duration-150 ease-in-out" alt="archImage17" />
+                    <h4 className="mt-3">Scandinavian</h4>
+                    <span>The Scandinavian style of interior design originated in the 1950s and largely evolved from
+                        five Nordic influences, namely Norway, Sweden, Finland, Iceland and Denmark. This modern look
+                        has grown in popularity over the years with the immense contributions of Ingvar Kamprad
+                        (Founder-Ikea), Arne Jacobsen, Hans Wegner, Alvar Aalto and Eero Arnio, all of whom are talented
+                        Scandinavian designers. The style is also known for its attractiveness, functionality and
+                        simplicity.</span>
+                </div>
+
+                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
+                    <img src="/images/img/nordic-interiordesign.jpg" className="hover:scale-110 duration-150 ease-in-out" alt="archImage18" />
+                    <h4 className="mt-3">Nordic</h4>
+                    <span>Scandinavian design expresses its beauty in a simple, functional and warm decorating style,
+                        which mixes whites, neutral colours, and natural woods. Simple lines are combined with a clean
+                        and fresh aesthetic to create cosy and light interiors.However, there are also subtle
+                        differences between the two styles. Some designers feel that Scandinavian design is more
+                        minimalist with functionality at its core, while Nordic design is more homely and influenced by
+                        traditional workmanship and crafts.
+                    </span>
+                </div>
+
+                <div className="p-3 h-auto text-justify overflow-hidden">
+                    <img src="/images/img/swedish-interiordesign.jpg" className="hover:scale-110 duration-150 ease-in-out" alt="archImage19" />
+                    <h4 className="mt-3">Swedish</h4>
+                    <span>Swedish design is often associated with clean functionality and modern, innovative stylings.
+                        Its aesthetic and values stem from the functionalism movement that first emerged in Berlin in
+                        the early 20th century. The beauty of less is more is a central concept. Every line has to be
+                        considered and the quality of material and craftsmanship has to be beyond reproach. Swedish
+                        designers tend to draw inspiration from the nature that surrounds them, not only in terms of the
+                        materials they use but as the muse for their creations.</span>
+                </div>
+            </div>
 
         </>
     )

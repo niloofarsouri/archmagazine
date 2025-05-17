@@ -1,6 +1,4 @@
-import PagesHeader from "@/components/header-other-pages";
-
-
+import FooterTransparent from "@/components/footer-transparent";
 
 
 export default function Layout({ children }) {
@@ -15,15 +13,14 @@ export default function Layout({ children }) {
         // </div>
 
 
-
-        <div className="w-full">
-            <div className="w-full h-[50px] bg-[#E0D2B7] text-[#080808]">
-                <PagesHeader/>
-            </div>
-
+        <>
 
             {children}
-        </div>
-
+            <div className="w-full h-auto flex items-center justify-center dark:text-white ">
+                <div className="w-4/5 border-t-1">
+                    <FooterTransparent />
+                </div>
+            </div>
+        </>
     );
 }
