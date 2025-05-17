@@ -67,6 +67,59 @@ function Styles() {
                 </div>
             </div>
 
+
+
+            <div className="w-full min-h-screen mt-5 bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
+                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
+                    <img src="/images/img/Gustavian.jpg" className="hover:scale-110 duration-150 ease-in-out" alt="archImage20" />
+                    <h4 class="mt-3">Gustavian</h4>
+                    <span>When the future King Gustav III of Sweden returned from an extended stay at Versailles in
+                        1771,
+                        he brought home with him a love of neoclassical style. It’s easy to confuse Gustavian decor with
+                        French neoclassicism and even rococo: The furniture
+                        boasts fluted legs, scalloped aprons, and carved detailing; chandeliers and mirrors glint with
+                        gold gilt. But the Swedes favored whitewashed woods and pale hues, rather than dark wood and
+                        jewel-tone colors, to compensate for the lack of sunlight during the long northern winters. And
+                        in keeping with a Scandinavian appreciation of simplicity, rich damasks and opulent tapestries
+                        were typically replaced with solid linen or cheery checked upholstery.</span>
+                </div>
+
+                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
+                    <img src="/images/img/industrial-interior-design-2.webp" className="hover:scale-110 duration-150 ease-in-out" alt="archImage21" />
+                    <h4 class="mt-3">Industrial</h4>
+                    <span>Industrial interior design is the perfect synthesis of form and function. Inspired by the raw
+                        framework in factories, this style usually embraces concealed elements like bricks and concrete,
+                        wiring, pipes, ducting, etc.The beauty of industrial design lies in embracing the imperfections,
+                        wear and tear, and
+                        weathering seen in the materials and finishes. It is the most unpretentious style, laying bare
+                        all its rawness for the world to see and celebrate.</span>
+                </div>
+
+                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
+                    <img src="/images/img/urban-3.jpg" className="hover:scale-110 duration-150 ease-in-out" alt="archImage22" />
+                    <h4 class="mt-3">Urban</h4>
+                    <span>Urban and Rustic are two opposite design styles that you might think could never go together,
+                        but that’s not the case. As you can see, these two very distinct styles do a phenomenal job at
+                        complimenting each other when you mix them together to create an Urban Rustic interior design.
+                        The creative use of metal and concrete, organic lines, and interesting shapes make it easy for
+                        urban designers to create an exciting look for any home.
+                    </span>
+                </div>
+
+                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
+                    <img src="/images/img/loft.webp" className="hover:scale-110 duration-150 ease-in-out" alt="archImage23" />
+                    <h4 class="mt-3">Loft</h4>
+                    <span>A loft is a living space made inside a former industrial building. Lofts feature open floor
+                        plans with concrete floors, high ceilings, and large windows for natural light. There are two
+                        types of lofts: hard and soft. Hard lofts, also known as true lofts, are
+                        traditional loft spaces inside renovated commercial buildings with brick walls and exposed
+                        ductwork. This style of hard loft grew in popularity with artists in New York City as spaces to
+                        live and work.</span>
+                </div>
+
+            </div>
+
+
         </>
     )
 }
