@@ -17,7 +17,10 @@ function HeaderBurger() {
     return (
         <>
             <section className="w-full max-h-screen z-50 mt-0 md:hidden">
-                <button onClick={handleOpen}><img src="/icons/HamburgerMenu.png" className="w-[30px] h-[30px] p-1 mr-2" /></button>
+                <button onClick={handleOpen}>
+                    <img src="/icons/HamburgerMenu.png" className="w-[30px] h-[30px] p-1 mr-2 dark:hidden" />
+                    <img src="/icons/white-burger.png" className="w-[30px] h-[30px] p-1 mr-2 hidden dark:block" />
+                </button>
                 <div className="flex-col transition-discrete bg-opacity">
                     {
                         open ?
