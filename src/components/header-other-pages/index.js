@@ -35,14 +35,16 @@ function PagesHeader() {
                     </Link>
                 </ul> */}
 
-                <div className="flex justify-center items-center p-3">
-                    <Image
-                        src="/images/logo/logo.png"
-                        alt="Picture of logo"
-                        width={30}
-                        height={30}
-                    />
-                </div>
+                <Link href={'/'}>
+                    <div className="flex justify-center items-center p-3">
+                        <Image
+                            src="/images/logo/logo.png"
+                            alt="Picture of logo"
+                            width={30}
+                            height={30}
+                        />
+                    </div>
+                </Link>
             </div>
 
 
