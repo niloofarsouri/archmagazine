@@ -20,7 +20,7 @@ function Styles() {
 
             <div className="w-full min-h-screen bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
                 <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
-                    <img src="/images/img/rustic.jpg" className="hover:scale-110 duration-150 ease-in-out" alt="archImage16" />
+                    <img src="/images/img/rustic.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage16" />
                     <h4 className="mt-3">Rustic</h4>
                     <span>Rustic interior design represents a natural, rough, aged, and casual design style. The
                         category is broad and incorporates a range of variations on the style, including Tuscan,
@@ -33,7 +33,7 @@ function Styles() {
                 </div>
 
                 <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
-                    <img src="/images/img/scandinavian-interior.jpg" className="hover:scale-110 duration-150 ease-in-out" alt="archImage17" />
+                    <img src="/images/img/scandinavian-interior.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage17" />
                     <h4 className="mt-3">Scandinavian</h4>
                     <span>The Scandinavian style of interior design originated in the 1950s and largely evolved from
                         five Nordic influences, namely Norway, Sweden, Finland, Iceland and Denmark. This modern look
@@ -44,7 +44,7 @@ function Styles() {
                 </div>
 
                 <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
-                    <img src="/images/img/nordic-interiordesign.jpg" className="hover:scale-110 duration-150 ease-in-out" alt="archImage18" />
+                    <img src="/images/img/nordic-interiordesign.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage18" />
                     <h4 className="mt-3">Nordic</h4>
                     <span>Scandinavian design expresses its beauty in a simple, functional and warm decorating style,
                         which mixes whites, neutral colours, and natural woods. Simple lines are combined with a clean
@@ -56,7 +56,7 @@ function Styles() {
                 </div>
 
                 <div className="p-3 h-auto text-justify overflow-hidden">
-                    <img src="/images/img/swedish-interiordesign.jpg" className="hover:scale-110 duration-150 ease-in-out" alt="archImage19" />
+                    <img src="/images/img/swedish-interiordesign.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage19" />
                     <h4 className="mt-3">Swedish</h4>
                     <span>Swedish design is often associated with clean functionality and modern, innovative stylings.
                         Its aesthetic and values stem from the functionalism movement that first emerged in Berlin in
@@ -71,7 +71,7 @@ function Styles() {
 
             <div className="w-full min-h-screen mt-5 bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
                 <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
-                    <img src="/images/img/Gustavian.jpg" className="hover:scale-110 duration-150 ease-in-out" alt="archImage20" />
+                    <img src="/images/img/Gustavian.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage20" />
                     <h4 class="mt-3">Gustavian</h4>
                     <span>When the future King Gustav III of Sweden returned from an extended stay at Versailles in
                         1771,
@@ -85,7 +85,7 @@ function Styles() {
                 </div>
 
                 <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
-                    <img src="/images/img/industrial-interior-design-2.webp" className="hover:scale-110 duration-150 ease-in-out" alt="archImage21" />
+                    <img src="/images/img/industrial-interior-design-2.webp" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage21" />
                     <h4 class="mt-3">Industrial</h4>
                     <span>Industrial interior design is the perfect synthesis of form and function. Inspired by the raw
                         framework in factories, this style usually embraces concealed elements like bricks and concrete,
@@ -96,7 +96,7 @@ function Styles() {
                 </div>
 
                 <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
-                    <img src="/images/img/urban-3.jpg" className="hover:scale-110 duration-150 ease-in-out" alt="archImage22" />
+                    <img src="/images/img/urban-3.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage22" />
                     <h4 class="mt-3">Urban</h4>
                     <span>Urban and Rustic are two opposite design styles that you might think could never go together,
                         but that’s not the case. As you can see, these two very distinct styles do a phenomenal job at
@@ -107,7 +107,7 @@ function Styles() {
                 </div>
 
                 <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
-                    <img src="/images/img/loft.webp" className="hover:scale-110 duration-150 ease-in-out" alt="archImage23" />
+                    <img src="/images/img/loft.webp" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage23" />
                     <h4 class="mt-3">Loft</h4>
                     <span>A loft is a living space made inside a former industrial building. Lofts feature open floor
                         plans with concrete floors, high ceilings, and large windows for natural light. There are two

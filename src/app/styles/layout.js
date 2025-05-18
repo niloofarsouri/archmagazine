@@ -16,7 +16,7 @@ export default function Layout({ children }) {
         <>
 
             {children}
-            <div className="w-full h-auto flex items-center justify-center dark:text-white ">
+            <div className="w-full h-auto bg-[#FBECEA] text-[#080808] flex items-center justify-center ">
                 <div className="w-4/5 border-t-1">
                     <FooterTransparent />
                 </div>

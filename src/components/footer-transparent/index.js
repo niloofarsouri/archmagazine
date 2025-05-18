@@ -7,7 +7,7 @@ function FooterTransparent() {
 
     return (
         <>
-            <div className="flex justify-between items-center bg-transparent dark:text-white">
+            <div className="flex justify-between items-center bg-transparent">
                 <div className="flex-1/2  h-[300px] p-8 flex justify-baseline items-center">
                     <ul className="flex flex-col justify-center items-baseline ">
                         <Link href={'/'}>
