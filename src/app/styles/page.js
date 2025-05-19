@@ -13,13 +13,30 @@ function Styles() {
 
     return (
         <>
-            <div className="w-full h-[200px] mb-3 md:mb-15 md:h-[600px] bg-[url(/images/img/rustic.jpg)] bg-no-repeat bg-cover opacity-60">
+            <div className="w-full h-[200px] mb-3 md:mb-15 md:h-[600px] bg-[url(/images/img/rustic.jpg)] bg-no-repeat bg-cover dark:opacity-80">
                 <PagesHeaderTransparent />
             </div>
 
+            <div className="w-full h-auto text-[#080808] p-3">
+                <div className="w-3/5 m-auto">
+                    <p className="text-justify">
+                        مفهوم «سبک» در معماری تا حد زیادی ساخته‌ی قرن نوزدهم و در واقع، خود رشته‌ی تاریخ معماری است. شخصیتی که مفهوم «سبک» در این دوره عمدتاً با او پیوند نزدیکی دارد، مورخ و معمار سوئیسی، هاینریش ولف نام دارد. ولف، شاگرد مورخ فرهنگی تأثیرگذار آلمانی، یاکوب بورکهارت، روشی تقریباً علمی و دقیق برای تاریخ معماری در ترسیم آنچه که او به عنوان «مسئله‌ی توسعه‌ی سبک» توصیف می‌کرد، بنیان نهاد. او پنج جفت مفهوم متضاد را مطرح کرد: خطی/نقاشی‌گونه؛ صفحه‌ای/عقب‌نشینی؛ فرم بسته/فرم باز؛ کثرت/وحدت و وضوح مطلق/وضوح نسبی. با در اختیار داشتن این چارچوب، هر مورخ معماری با آموزش بصری لازم می‌تواند «سبک» یک اثر معماری خاص را مشخص کند و پیشرفت آن را در طول زمان ترسیم کند.
+                    </p>
+                    <p className="text-justify">
+                        روش ولفین از جهات مختلف مورد انتقاد قرار گرفت. برخی با این موضوع که تقلیل ظاهری تجربه یک اثر هنری یا معماری به مجموعه‌ای گسسته از پارامترها، پاسخ ذهنی، شهودی یا احساسی را نفی می‌کند، مشکل داشتند. علاوه بر این، نظریه او تمایل داشت محتوا را به نفع فرم نادیده بگیرد، در حالی که عوامل اجتماعی، اقتصادی یا مادی تعیین‌کننده خلق یک ساختمان یا یک اثر هنری را نادیده می‌گرفت. در مفهوم اساساً هگلی ولفین، «سبک» زندگی و مسیر خاص خود را داشت، و هنرمندان و معماران به بازیگرانی صرف تقلیل می‌یافتند که از روی متنی که از پیش توسط روح زمانه مقدر شده بود، اجرا می‌کردند.
+                        بنابراین، در تصور چنین کتابی، با مشکلات مفهومی و عملی، و البته مشکلات تاریخی، روبرو می‌شویم؛ تنها از قرن نوزدهم به بعد است که معماران خود را طرفدار یک «سبک» یا سبک دیگر می‌دانند، فارغ از اینکه آن را چگونه تصور کنیم.
 
-            <div className="w-full min-h-screen mt-5 bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
-                <div className="p-3 h-auto text-justify overflow-hidden">
+                        علاوه بر این، هنگام گردآوری آثار معماری که ویژگی‌های «سبکی» مشترک خاصی را نشان می‌دهند، لزوماً آثار دیگری که این ویژگی‌ها را ندارند، کنار گذاشته می‌شوند. معماری تمام دوره‌ها که به همان اندازه که توسط ذهن و دست‌های فردی شکل گرفته است، توسط روندهای کلی نیز شکل گرفته است، تنوع بیشتری را نسبت به هر دسته «سبکی» که می‌تواند شامل شود، نشان می‌دهد. بنابراین، «سبک» در اینجا به معنای وسیع آن در نظر گرفته می‌شود. در برخی موارد، این اصطلاح برای گروه‌بندی و تحلیل ساختمان‌ها بر اساس ویژگی‌های بسیار خاص استفاده می‌شود و در برخی دیگر برای برجسته کردن روندهای فرهنگی یا استراتژی‌های معماری خاص که آثاری را که در ظاهر ممکن است نامرتبط به نظر برسند، گرد هم می‌آورند. حتی در مواردی که معماران برای تعریف جنبش‌های خود، اگر نگوییم «سبک‌ها»، به ویژه در قرن بیستم، گرد هم آمدند، باید از انگیزه‌های خاص پشت چنین پیوندهایی بسیار آگاه بود. کار معماران لزوماً در طول دوران حرفه‌ای‌شان ثابت نمی‌ماند. آنها ممکن است کار خود را با کار در یک «سبک» شروع کنند و آن را با سبکی کاملاً متفاوت به پایان برسانند، و البته معمارانی نیز وجود دارند که کارشان به طور کلی از طبقه‌بندی طفره می‌رود.
+
+                    </p>
+                    <p className="text-justify">
+                        در اینجا، هر «سبک» منحصربه‌فرد بر اساس ویژگی‌های فرمی مشترک، جغرافیا، روندهای فرهنگی گسترده، جنبش‌ها یا ایدئولوژی‌ها - یا هر ترکیبی از آنها - تصور می‌شود. ّ
+                    </p>
+                </div>
+            </div>
+
+            <div className="w-full min-h-screen bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
+                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/rococco-7.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage32" />
                     <h4 class="mt-3">Rococo </h4>
                     <span>The Rococo first emerged in France during the 1720s and 30s as a style developed by
@@ -33,7 +50,7 @@ function Styles() {
                         design does not match the other.</span>
                 </div>
 
-                <div className="p-3 h-auto text-justify overflow-hidden">
+                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/Renaissance-3.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage33" />
                     <h4 class="mt-3">Renaissance</h4>
                     <span>Renaissance style in interior design refers to a period of furniture and home decor popular
@@ -45,7 +62,7 @@ function Styles() {
                         storage compartments.</span>
                 </div>
 
-                <div className="p-3 h-auto text-justify overflow-hidden">
+                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/roman-design.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage34" />
                     <h4 class="mt-3">Roman</h4>
                     <span>Roman art is known for sculpture in bronze and marble, painting in the form of murals,
@@ -76,7 +93,7 @@ function Styles() {
 
 
             <div className="w-full min-h-screen bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
-                <div className="p-3 h-auto text-justify overflow-hidden">
+                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/gothic-4.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage30" />
                     <h4 class="mt-3">Gothic</h4>
                     <span>Gothic architecture, architectural style in Europe that lasted from the mid-12th century to
@@ -92,7 +109,7 @@ function Styles() {
                     </span>
                 </div>
 
-                <div className="p-3 h-auto text-justify overflow-hidden">
+                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/Neoclassical-style-2.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage27" />
                     <h4 class="mt-3">Neo Classic</h4>
                     <span>Neoclassical interior design style combines the elegance of classic style with modern lines.
@@ -135,8 +152,8 @@ function Styles() {
 
             </div>
 
-            <div className="w-full min-h-screen mt-5 bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
-                <div className="p-3 h-auto text-justify overflow-hidden">
+            <div className="w-full min-h-screen bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
+                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/Bohemian-Interior-Design-1.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage24" />
                     <h4 class="mt-3">Bohemian</h4>
                     <span>When you hear the word "boho," if your mind immediately jumps to the perfectly undone (yet
@@ -150,7 +167,7 @@ function Styles() {
                         Romani (gypsy) areas of Paris, in order to seek alternatives to bourgeois expectations.</span>
                 </div>
 
-                <div className="p-3 h-auto text-justify overflow-hidden">
+                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/Art-Nouveau-Interior-Design-1.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage25" />
                     <h4 class="mt-3">Art Nouveau</h4>
                     <span>Art Nouveau interior design was popular in the United States and Europe from 1890 to 1910. It
@@ -167,7 +184,7 @@ function Styles() {
                         poor, it was more often favored by the wealthy, who used it as a status symbol.</span>
                 </div>
 
-                <div className="p-3 h-auto text-justify overflow-hidden">
+                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/Art_Deco_Interior_Design_2.webp" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage26" />
                     <h4 class="mt-3">Art Deco</h4>
                     <span>Art deco interior design is a decorative art style that originated in France in the 1920s and
@@ -197,8 +214,8 @@ function Styles() {
             </div>
 
 
-            <div className="w-full min-h-screen mt-5 bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
-                <div className="p-3 h-auto text-justify overflow-hidden">
+            <div className="w-full min-h-screen bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
+                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/moroccan-4.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage28" />
                     <h4 class="mt-3">Moroccan </h4>
                     <span>Moroccan interior design is distinct due to its diverse influences from the country's long and
@@ -237,7 +254,7 @@ function Styles() {
                     </span>
                 </div>
 
-                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/loft.webp" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage23" />
                     <h4 class="mt-3">Loft</h4>
                     <span>A loft is a living space made inside a former industrial building. Lofts feature open floor

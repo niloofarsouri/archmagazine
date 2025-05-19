@@ -1,3 +1,4 @@
+import PagesHeaderTransparent from "@/components/header-other-pages-transparent";
 
 
 export const metadata = {
@@ -11,27 +12,30 @@ function Contact() {
 
     return (
         <>
-            <section className="text-center md:mb-2">
-                <div className="p-6">
-                    <h1 className="text-xl mb-4">تماس با ما</h1>
-                    <p className="mb-6">اگر مایل به تماس هستید، لطفا با استفاده از اطلاعات زیر با ما تماس بگیرید.</p>
-                </div>
+            <section className="w-full min-h-screen flex-col justify-center text-center md:mb-2 bg-[url(/images/img/contact-2.jpg)] bg-no-repeat bg-cover">
+                <PagesHeaderTransparent />
 
-                <div className="flex flex-col items-center p-6 md:flex-row justify-center">
-                    <div className="w-1/3 mb-3 md:mb-1">
-                        <h2 className="text-lg">آدرس</h2>
-                        <p>IRAN-Tehran</p>
+
+                <div className="w-full h-auto mt-10 flex justify-center items-center opacity-70">
+                    <div className="w-4/5 h-[600px] bg-white">
+                        <div className="p-6">
+                            <h1 className="text-xl mb-4">تماس با ما</h1>
+                            <p className="mb-6">اگر مایل به تماس هستید، لطفا با استفاده از اطلاعات زیر با ما تماس بگیرید.</p>
+                        </div>
+
+                        <div className="flex flex-col items-center p-6 md:flex-row justify-center">
+                            <div className="w-1/3 mb-3 md:mb-1">
+                                <h2 className="text-lg">آدرس</h2>
+                                <p>IRAN-Tehran</p>
+                            </div>
+
+                            <div className="w-1/3 mb-3 md:mb-1">
+                                <h2 className="text-lg">تلفن تماس</h2>
+                                <p>+(98) 933-8487937</p>
+                            </div>
+
+                        </div>
                     </div>
-
-                    <div className="w-1/3 mb-3 md:mb-1">
-                        <h2 className="text-lg">تلفن تماس</h2>
-                        <p>+(98) 933-8487937</p>
-                    </div>
-
-                    {/* <div className="w-1/3 mb-3 md:mb-1">
-                        <h2 className="text-lg">Address</h2>
-                        <p>123 London st, UK</p>
-                    </div> */}
                 </div>
             </section>
         </>
@@ -40,3 +44,4 @@ function Contact() {
 
 
 export default Contact
+

@@ -1,5 +1,4 @@
-import Myfooter from "@/components/footer";
-import PagesHeader from "@/components/header-other-pages";
+import FooterTransparent from "@/components/footer-transparent";
 
 
 
@@ -18,9 +17,9 @@ export default function Layout({ children }) {
 
 
         <>
-            <PagesHeader />
+            {/* <PagesHeader /> */}
             {children}
-            <Myfooter />
+            <FooterTransparent/>
         </>
 
     );
