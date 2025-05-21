@@ -6,8 +6,8 @@ function FirstAnimation() {
     return (
         <>
 
-            <section className="w-3/5 min-h-screen flex justify-center items-center md:m-auto">
-                <div className="w-full h-auto p-3 mb-20 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2">
+            <section className="w-3/5 min-h-screen flex justify-center items-center font-extralight m-auto">
+                <div className="w-full h-auto p-3 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2">
 
                     <div className="card first-card w-[18rem] h-auto m-1 mr-7 bg-[#FBECEA] hover:shadow-xl shadow-[#fff7e3] lg:relative lg:m-0">
                         <img src="/images/img/barock1.jpg" className="card-img-top" alt="..." />

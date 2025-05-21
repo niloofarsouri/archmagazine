@@ -8,7 +8,7 @@ function SecondAnimation() {
     return (
         <>
 
-            <div className="w-full h-[550px] border-l-1 border-r-1 hidden md:flex justify-between items-center">
+            <div className="w-full h-[550px] font-extralight border-l-1 border-r-1 hidden md:flex justify-between items-center">
 
                 <div className="flex-1/2">
 

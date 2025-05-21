@@ -36,7 +36,7 @@ function Styles() {
             </div>
 
             <div className="w-full min-h-screen bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
-                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/rococco-7.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage32" />
                     <h4 class="mt-3">Rococo </h4>
                     <span>The Rococo first emerged in France during the 1720s and 30s as a style developed by
@@ -50,7 +50,7 @@ function Styles() {
                         design does not match the other.</span>
                 </div>
 
-                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/Renaissance-3.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage33" />
                     <h4 class="mt-3">Renaissance</h4>
                     <span>Renaissance style in interior design refers to a period of furniture and home decor popular
@@ -62,7 +62,7 @@ function Styles() {
                         storage compartments.</span>
                 </div>
 
-                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/roman-design.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage34" />
                     <h4 class="mt-3">Roman</h4>
                     <span>Roman art is known for sculpture in bronze and marble, painting in the form of murals,
@@ -93,7 +93,7 @@ function Styles() {
 
 
             <div className="w-full min-h-screen bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
-                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/gothic-4.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage30" />
                     <h4 class="mt-3">Gothic</h4>
                     <span>Gothic architecture, architectural style in Europe that lasted from the mid-12th century to
@@ -109,7 +109,7 @@ function Styles() {
                     </span>
                 </div>
 
-                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/Neoclassical-style-2.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage27" />
                     <h4 class="mt-3">Neo Classic</h4>
                     <span>Neoclassical interior design style combines the elegance of classic style with modern lines.
@@ -122,7 +122,7 @@ function Styles() {
                 </div>
 
 
-                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/Gustavian.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage20" />
                     <h4 class="mt-3">Gustavian</h4>
                     <span>When the future King Gustav III of Sweden returned from an extended stay at Versailles in
@@ -153,7 +153,7 @@ function Styles() {
             </div>
 
             <div className="w-full min-h-screen bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
-                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/Bohemian-Interior-Design-1.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage24" />
                     <h4 class="mt-3">Bohemian</h4>
                     <span>When you hear the word "boho," if your mind immediately jumps to the perfectly undone (yet
@@ -167,7 +167,7 @@ function Styles() {
                         Romani (gypsy) areas of Paris, in order to seek alternatives to bourgeois expectations.</span>
                 </div>
 
-                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/Art-Nouveau-Interior-Design-1.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage25" />
                     <h4 class="mt-3">Art Nouveau</h4>
                     <span>Art Nouveau interior design was popular in the United States and Europe from 1890 to 1910. It
@@ -184,7 +184,7 @@ function Styles() {
                         poor, it was more often favored by the wealthy, who used it as a status symbol.</span>
                 </div>
 
-                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/Art_Deco_Interior_Design_2.webp" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage26" />
                     <h4 class="mt-3">Art Deco</h4>
                     <span>Art deco interior design is a decorative art style that originated in France in the 1920s and
@@ -215,7 +215,7 @@ function Styles() {
 
 
             <div className="w-full min-h-screen bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
-                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/moroccan-4.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage28" />
                     <h4 class="mt-3">Moroccan </h4>
                     <span>Moroccan interior design is distinct due to its diverse influences from the country's long and
@@ -232,7 +232,7 @@ function Styles() {
                         icons. The Islamic influence also incorporated Portuguese-inspired outdoor gardens.</span>
                 </div>
 
-                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/industrial-interior-design-2.webp" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage21" />
                     <h4 class="mt-3">Industrial</h4>
                     <span>Industrial interior design is the perfect synthesis of form and function. Inspired by the raw
@@ -243,7 +243,7 @@ function Styles() {
                         all its rawness for the world to see and celebrate.</span>
                 </div>
 
-                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/urban-3.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage22" />
                     <h4 class="mt-3">Urban</h4>
                     <span>Urban and Rustic are two opposite design styles that you might think could never go together,
@@ -269,7 +269,7 @@ function Styles() {
 
 
             <div className="w-full min-h-screen bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
-                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/rustic.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage16" />
                     <h4 className="mt-3">Rustic</h4>
                     <span>Rustic interior design represents a natural, rough, aged, and casual design style. The
@@ -282,7 +282,7 @@ function Styles() {
                         in the form of ceiling beams, and wood trims around doors, windows and fireplaces.</span>
                 </div>
 
-                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/scandinavian-interior.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage17" />
                     <h4 className="mt-3">Scandinavian</h4>
                     <span>The Scandinavian style of interior design originated in the 1950s and largely evolved from
@@ -293,7 +293,7 @@ function Styles() {
                         simplicity.</span>
                 </div>
 
-                <div className="border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/nordic-interiordesign.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage18" />
                     <h4 className="mt-3">Nordic</h4>
                     <span>Scandinavian design expresses its beauty in a simple, functional and warm decorating style,

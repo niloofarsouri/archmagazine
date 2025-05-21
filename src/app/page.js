@@ -25,30 +25,27 @@ export default function Home() {
             <div className="w-full min-h-screen bg-[url(/images/bg-2.png)] bg-no-repeat bg-cover absolute top-50 z-50"></div>
           </div>
         </div>
-        <br />
+        {/* <br /> */}
 
 
-        <div className="w-full min-h-screen mt-10 flex flex-col justify-center items-center">
+        <div className="w-full min-h-screen bg-[#220C08] flex flex-col justify-center items-center">
 
-
-
-          <div className="w-3/5 h-300px p-8 flex-col justify-center items-center text-[#080808] dark:text-white ">
-            {/* <div className="w-full h-8 text-center">
-              <h1 className="font-mono md:text-xl">هنر یا علم ساختمان سازی</h1>
-            </div> */}
-            <p className="p-4 text-xs text-justify font-mono md:text-xl">
+          <div className="w-3/5 h-300px p-8 flex-col justify-center items-center text-white ">
+            <h1 className="text-center font-extrabold md:text-2xl">هنر یا علم ساختمان سازی</h1>
+            <p className="p-4 text-xs text-justify font-extralight md:text-xl">
               این هنر است که معماری را از مهارت های مرتبط با ساخت متمایز می کند. معماری همان فرآیند ومحصول طراحی، تصور، برنامه ریزی، طراحی و ساخت ساختمان ها یا سازه ها می باشد. این اصطلاح از لاتین architectura از یونان باستان ἀρχιτέκτων (arkhitéktōn) 'معمار'; از ἀρχι- (arkhi-) 'رئیس'، و τέκτων (téktōn) 'خالق'. آثار معماری، در شکل مادی ساختمان ها، اغلب به عنوان نمادهای فرهنگی و به عنوان آثار هنری تلقی می شوند. تمدن های تاریخی اغلب با دستاوردهای معماری بازمانده از خود شناسایی می شوند.
             </p>
           </div>
 
-          <div className="w-full h-auto mt-1 md:mt-0">
+          <div className="w-full flex flex-col items-center mt-3 md:m-auto">
             <FirstAnimation />
           </div>
+        </div>
 
+        <div className="w-full flex justify-center items-center">
           <div className="w-3/4 h-auto p-5 mt-20">
             <SecondAnimation />
           </div>
-
         </div>
 
       </section>

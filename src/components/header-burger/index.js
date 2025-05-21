@@ -24,9 +24,9 @@ function HeaderBurger() {
                 <div className="flex-col transition-discrete bg-opacity">
                     {
                         open ?
-                            <div className="max-w-3/5 min-h-screen bg-[#e0d2b7] text-black">
+                            <div className="  min-h-screen bg-[#FBECEA] text-black">
 
-                                <ul className="flex border-b-1 mb-2">
+                                {/* <ul className="flex border-b-1 mb-2">
                                     <Link href={'/login'}>
                                         <li className="p-2 text-xs">Login</li>
                                     </Link>
@@ -34,7 +34,7 @@ function HeaderBurger() {
                                     <Link href={'/signup'}>
                                         <li className="p-2 text-xs">SignUp</li>
                                     </Link>
-                                </ul>
+                                </ul> */}
 
                                 <ul className="flex-col">
                                     <Link href={'/'}>
