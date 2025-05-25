@@ -8,20 +8,18 @@ function Myfooter() {
 
     return (
         <>
-            <div className="flex justify-between items-center font-extralight bg-[#FBECEA] text-[#080808]">
-                <div className="flex-1/2  h-[300px] p-8 flex justify-baseline items-center">
+            <div className="flex justify-between items-center font-extralight bg-[#080808] text-white">
+                <div className="flex-1/3 h-[300px] p-8 flex justify-baseline items-center">
                     <ul className="flex flex-col justify-center items-baseline ">
                         <Link href={'/'}>
                             <li className="p-4">صفحه اصلی</li>
                         </Link>
 
                         <Link href={'/contact'}>
-                            {/* <li className="p-4">Contact Us</li> */}
                             <li className="p-4">تماس با ما</li>
                         </Link>
 
                         <Link href={'/styles'}>
-                            {/* <li className="p-4">Styles in Architecture</li> */}
                             <li className="p-4">سبک شناسی در معماری</li>
                         </Link>
 
@@ -31,7 +29,12 @@ function Myfooter() {
                     </ul>
                 </div>
 
-                <div className="flex-1/2 h-auto bg-transparent flex-col items-center justify-center">
+                <div className="flex-1/3 h-[300px] p-8 flex justify-baseline items-center">
+                    <h3>درباره ما</h3>
+                    <p></p>
+                </div>
+
+                <div className="flex-1/3 h-auto bg-transparent flex-col items-center justify-center">
                     <div className="flex justify-center items-center">
                         <Image
                             src="/images/logo/logo.png"

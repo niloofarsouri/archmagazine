@@ -8,7 +8,7 @@ function PagesHeaderTransparent() {
 
     return (
         <>
-            <div className="w-full h-14 mt-0 bg-transparent text-white hidden md:flex justify-between items-center">
+            <div className="w-full h-14 mt-0 bg-transparent hidden md:flex justify-between items-center">
                 <ul className="flex justify-baseline items-center">
                     <Link href={'/'}>
                         <li className="p-4">صفحه اصلی</li>

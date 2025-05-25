@@ -13,7 +13,7 @@ function Styles() {
 
     return (
         <>
-            <div className="w-full h-[200px] mb-3 md:mb-15 md:h-[600px] bg-[url(/images/img/rustic.jpg)] bg-no-repeat bg-cover dark:opacity-80">
+            <div className="w-full h-[200px] mb-3 md:mb-15 md:h-[600px] text-white bg-[url(/images/img/rustic.jpg)] bg-no-repeat bg-cover dark:opacity-80">
                 <PagesHeaderTransparent />
             </div>
 

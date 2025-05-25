@@ -13,7 +13,9 @@ function Contact() {
     return (
         <>
             <section className="w-full min-h-screen flex-col justify-center text-center md:mb-2 bg-[url(/images/img/contact-2.jpg)] bg-no-repeat bg-cover">
-                <PagesHeaderTransparent />
+                <div className="w-full h-auto text-white">
+                    <PagesHeaderTransparent />
+                </div>
 
 
                 <div className="w-full h-auto mt-10 flex justify-center items-center opacity-70">

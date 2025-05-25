@@ -16,16 +16,18 @@ function Projects() {
 
     return (
         <>
-            <div className="w-full max-h-screen mb-[50px]">
+            {/* <div className="w-full max-h-screen mb-[50px]"> */}
+                
+                <div className="w-full h-[200px] md:h-[600px] text-white bg-[url(/images/img/project-6.jpg)] bg-no-repeat bg-cover">
                 <PagesHeaderTransparent />
-                <div className="w-full h-[200px] md:h-[600px] bg-[url(/images/img/project-6.jpg)] bg-no-repeat bg-contain md:bg-cover opacity-60"></div>
-            </div>
+                </div>
+            {/* </div> */}
 
             <div className="w-full min-h-screen p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white">
-                <div className="h-1/2 p-1 m-3 border-1 flex justify-center items-center">نما</div>
-                <div className="h-1/2 p-1 m-3 border-1 flex justify-center items-center">داخلی</div>
-                <div className="h-1/2 p-1 m-3 border-1 flex justify-center items-center">نورپردازی</div>
-                <div className="h-1/2 p-1 m-3 border-1 flex justify-center items-center">معماری و طراحی</div>
+                <div className="h-1/2 p-1 m-3 border-1 rounded-sm flex justify-center items-center">نما</div>
+                <div className="h-1/2 p-1 m-3 border-1 rounded-sm flex justify-center items-center">داخلی</div>
+                <div className="h-1/2 p-1 m-3 border-1 rounded-sm flex justify-center items-center">نورپردازی</div>
+                <div className="h-1/2 p-1 m-3 border-1 rounded-sm flex justify-center items-center">معماری و طراحی</div>
             </div>
 
         </>

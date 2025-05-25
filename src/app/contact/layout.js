@@ -17,9 +17,8 @@ export default function Layout({ children }) {
 
 
         <>
-            {/* <PagesHeader /> */}
             {children}
-            <FooterTransparent/>
+            <FooterTransparent />
         </>
 
     );
