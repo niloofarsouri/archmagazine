@@ -8,7 +8,7 @@ function Myfooter() {
 
     return (
         <>
-            <div className="flex justify-between items-center font-extralight bg-[#080808] text-white">
+            <div className="flex justify-between items-center font-extralight dark:border-t-1 bg-[#080808] text-white">
                 <div className="flex-1/3 h-[300px] p-8 flex justify-baseline items-center">
                     <ul className="flex flex-col justify-center items-baseline ">
                         <Link href={'/'}>

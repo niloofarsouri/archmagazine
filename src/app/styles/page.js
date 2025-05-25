@@ -17,7 +17,7 @@ function Styles() {
                 <PagesHeaderTransparent />
             </div>
 
-            <div className="w-full h-auto text-[#080808] p-3">
+            <div className="w-full h-auto text-[#080808] dark:text-white p-3">
                 <div className="w-3/5 m-auto">
                     <p className="text-justify">
                         مفهوم «سبک» در معماری تا حد زیادی ساخته‌ی قرن نوزدهم و در واقع، خود رشته‌ی تاریخ معماری است. شخصیتی که مفهوم «سبک» در این دوره عمدتاً با او پیوند نزدیکی دارد، مورخ و معمار سوئیسی، هاینریش ولف نام دارد. ولف، شاگرد مورخ فرهنگی تأثیرگذار آلمانی، یاکوب بورکهارت، روشی تقریباً علمی و دقیق برای تاریخ معماری در ترسیم آنچه که او به عنوان «مسئله‌ی توسعه‌ی سبک» توصیف می‌کرد، بنیان نهاد. او پنج جفت مفهوم متضاد را مطرح کرد: خطی/نقاشی‌گونه؛ صفحه‌ای/عقب‌نشینی؛ فرم بسته/فرم باز؛ کثرت/وحدت و وضوح مطلق/وضوح نسبی. با در اختیار داشتن این چارچوب، هر مورخ معماری با آموزش بصری لازم می‌تواند «سبک» یک اثر معماری خاص را مشخص کند و پیشرفت آن را در طول زمان ترسیم کند.
@@ -35,285 +35,122 @@ function Styles() {
                 </div>
             </div>
 
-            <div className="w-full min-h-screen bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
-                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
+            <div className="w-full h-auto bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
+                <div className="p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/rococco-7.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage32" />
-                    <h4 class="mt-3">Rococo </h4>
-                    <span>The Rococo first emerged in France during the 1720s and 30s as a style developed by
-                        craftspeople and designers rather than architects, which explains why it is found primarily in
-                        furniture, silver and ceramics.Rococo takes its name from the French word 'rocaille', which
-                        means rock or broken shell –
-                        natural motifs that often formed part of the designs, along with fish and other marine
-                        decorations. The acanthus leaf (Acanthus mollis), or rather a heavily stylised version of it,
-                        was also a signature motif. Another key feature of the design is its curved asymmetric
-                        ornamentation, where its forms often resemble the letters 'S' and 'C', and where one half of the
-                        design does not match the other.</span>
+                    <h4 class="mt-3 text-center">Rococo </h4>
                 </div>
 
-                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/Renaissance-3.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage33" />
-                    <h4 class="mt-3">Renaissance</h4>
-                    <span>Renaissance style in interior design refers to a period of furniture and home decor popular
-                        from the 13th century to the 17th century. The designs were heavily influenced by classical art,
-                        especially that of Michelangelo, Raphael, and other Italian artists from this era.This style
-                        often draws inspiration from mythological or biblical figures, with ornate details and carved
-                        elements crafted in walnut, the wood of choice for many Renaissance-style pieces. The furniture
-                        was true to its purpose and featured functional elements like intricate doors, drawers, and
-                        storage compartments.</span>
+                    <h4 class="mt-3 text-center">Renaissance</h4>
                 </div>
 
-                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/roman-design.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage34" />
-                    <h4 class="mt-3">Roman</h4>
-                    <span>Roman art is known for sculpture in bronze and marble, painting in the form of murals,
-                        frescos, portraiture and vase-painting, and architectural masterpieces such as its amphitheatres
-                        and domes. It was also known for its decorative arts, which included metalwork, glass work,
-                        mosaic and coins.
-                    </span>
+                    <h4 class="mt-3 text-center">Roman</h4>
                 </div>
 
 
                 <div className="p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/baroque-1.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage31" />
-                    <h4 class="mt-3">Baroque</h4>
-                    <span>Baroque interior design originates from the Baroque era, which began in 17th-century Italy and
-                        lasted into the mid-18th century. But the Baroque period wasn’t only about interior design and
-                        architecture – it influenced music, art, and culture.
-                        Baroque architecture and interior design developed in the 1600s in Italy. At the time, there was
-                        a reformation against the Catholic Church. In an attempt to counter that reformation, the
-                        Catholic Church began designing buildings that evoked power and beauty and inspired a sense of
-                        The first Baroque structures were intricate, with domes, ceiling carvings, and a sense of
-                        grandeur. In the beginning, Baroque-style buildings were only for churches and religious places,
-                        In France, the Baroque style made its way to the monarchy. It also spread through Latin America,
-                        Germany, Austria, and Czechia. While Baroque designs remained one that architects used for
-                        churches rather than residences, the details changed form depending on location.</span>
+                    <h4 class="mt-3 text-center">Baroque</h4>
                 </div>
 
             </div>
 
 
-            <div className="w-full min-h-screen bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
-                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
+            <div className="w-full h-auto bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
+                <div className="p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/gothic-4.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage30" />
-                    <h4 class="mt-3">Gothic</h4>
-                    <span>Gothic architecture, architectural style in Europe that lasted from the mid-12th century to
-                        the 16th century, particularly a style of masonry building characterized by cavernous spaces
-                        with the expanse of walls broken up by overlaid tracery.
-                        Gothic design is often characterized by dark colors, embellishments, moldings, and ornate
-                        details. It also tends to be less ornate than the Victorian gothic style, with less furniture
-                        and fewer accessories. One of the critical features of the modern gothic style is its emphasis
-                        on light and shadow.
-                        This can be seen in the use of contrasting colors in rugs and tapestries to create drama and
-                        intrigue. Sconces are also popular in the modern gothic style, as they can add a touch of
-                        elegance and glam while also providing light that casts shadows on the wall.
-                    </span>
+                    <h4 class="mt-3 text-center">Gothic</h4>
                 </div>
 
-                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/Neoclassical-style-2.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage27" />
-                    <h4 class="mt-3">Neo Classic</h4>
-                    <span>Neoclassical interior design style combines the elegance of classic style with modern lines.
-                        That is why many homeowners want to choose this style for their living room interior. One of the
-                        prominent features of Neoclassical style is its sizable interior in a large space. It’s also the
-                        biggest challenge when bringing neoclassical style into living room space of the tube house as
-                        this type of house is usually narrow in width and long in depth.To overcome limitations of
-                        width, the living room should be heightened to highlight delicate decorative lines in the
-                        ceiling and walls.</span>
+                    <h4 class="mt-3 text-center">Neo Classic</h4>
                 </div>
 
 
-                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/Gustavian.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage20" />
-                    <h4 class="mt-3">Gustavian</h4>
-                    <span>When the future King Gustav III of Sweden returned from an extended stay at Versailles in
-                        1771,
-                        he brought home with him a love of neoclassical style. It’s easy to confuse Gustavian decor with
-                        French neoclassicism and even rococo: The furniture
-                        boasts fluted legs, scalloped aprons, and carved detailing; chandeliers and mirrors glint with
-                        gold gilt. But the Swedes favored whitewashed woods and pale hues, rather than dark wood and
-                        jewel-tone colors, to compensate for the lack of sunlight during the long northern winters. And
-                        in keeping with a Scandinavian appreciation of simplicity, rich damasks and opulent tapestries
-                        were typically replaced with solid linen or cheery checked upholstery.</span>
+                    <h4 class="mt-3 text-center">Gustavian</h4>
                 </div>
 
                 <div className="p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/persian-interior-design-3.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage29" />
-                    <h4 class="mt-3">Persian Style</h4>
-                    <span>One of the very first things that amaze tourists in Iran or even one of the reasons people
-                        decide to visit Iran is its magnificent traditional houses. No matter if you are an architecture
-                        enthusiast or not, you will be mesmerized by the ingenuity of these ancient houses. The
-                        ingenuous and eco-friendly design in which the house was kept warm during cold winters and
-                        pleasant in hot summer days are so shocking. In general, they are not just a house. They are
-                        indeed a precise reflection of rich Persian culture, lifestyle, attitudes, principals, and
-                        religion. That is why visiting a traditional house in Iran is a MUST; so that you would be able
-                        to deep into people’s lives and culture and gain a better understanding of how might a local
-                        live in Iran.</span>
+                    <h4 class="mt-3 text-center">Persian Style</h4>
                 </div>
 
             </div>
 
-            <div className="w-full min-h-screen bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
-                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
+            <div className="w-full h-auto bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
+                <div className="p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/Bohemian-Interior-Design-1.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage24" />
-                    <h4 class="mt-3">Bohemian</h4>
-                    <span>When you hear the word "boho," if your mind immediately jumps to the perfectly undone (yet
-                        totally done) rooms inside an Anthropologie catalog, you wouldn't be wrong. But you also
-                        wouldn't have the whole picture. Bohemian design is something that everyone thinks they know
-                        like the back of their hand, and while you're probably right about what, exactly, it looks like,
-                        there's a lot about the design's backstory that most people aren't so familiar with.Bohemian
-                        design is generally inspired by those who lead a free-spirited, norm-defying life, like
-                        travelers, writers, artists, etc. "What we now understand as 'bohemianism' from a design
-                        perspective emerged from early nineteenth century France, when artists moved into the lower-rent
-                        Romani (gypsy) areas of Paris, in order to seek alternatives to bourgeois expectations.</span>
+                    <h4 class="mt-3 text-center">Bohemian</h4>
                 </div>
 
-                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/Art-Nouveau-Interior-Design-1.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage25" />
-                    <h4 class="mt-3">Art Nouveau</h4>
-                    <span>Art Nouveau interior design was popular in the United States and Europe from 1890 to 1910. It
-                        got its start in Britain during the Arts and Crafts movement. One of its first uses was by
-                        designer William Morris who created floral textile designs. The style took off and became a
-                        collaboration of architecture and interior design.The Art Nouveau designs drew inspiration from
-                        natural forms, often mimicking the curves in
-                        flowers and trees. Art Nouveau was elegant, and in addition to the wildlife-inspired features,
-                        designers looked to incorporate modern materials of the time, like concrete, glass, iron, and
-                        ceramics.In Art Noveau’s interior design, nature influenced all aspects, and each element had a
-                        sense of
-                        movement, sometimes referred to as “whiplash” lines. Because of the intricacy of these designs,
-                        the style was cost-prohibitive. While the movement was meant to be enjoyed by everyone, rich and
-                        poor, it was more often favored by the wealthy, who used it as a status symbol.</span>
+                    <h4 class="mt-3 text-center">Art Nouveau</h4>
                 </div>
 
-                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/Art_Deco_Interior_Design_2.webp" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage26" />
-                    <h4 class="mt-3">Art Deco</h4>
-                    <span>Art deco interior design is a decorative art style that originated in France in the 1920s and
-                        flourished internationally in the 1930s and 1940s. It is famous today because of its versatility
-                        as it can be adapted to various styles and spaces, incorporated into a modern, minimalist
-                        design, or used to add glamour to a more traditional space.
-
-                        Additionally, art deco remains popular because of its timeless elegance and how it seamlessly
-                        blends modern and traditional design elements. The use of rich materials, such as marble, brass,
-                        and exotic woods, gives an air of luxury, while the bold geometric shapes and streamlined design
-                        create a sense of modernity.
-                    </span>
+                    <h4 class="mt-3 text-center">Art Deco</h4>
                 </div>
 
                 <div className="p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/modern2.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage35" />
-                    <h4 class="mt-3">Modern</h4>
-                    <span>Modern design is an interior design style characterized by a monochromatic color palette,
-                        clean lines, minimalism, natural materials, and natural light. It refers specifically to a
-                        historical aesthetic movement that took place during the early to mid-twentieth century.Modern
-                        design is rooted in modernism, the turn-of-the-century movement characterized by an emphasis on
-                        abstract thinking, functionality, and stark, simple forms. Modern design is rooted in modernism,
-                        the turn-of-the-century movement characterized by an emphasis on abstract thinking,
-                        functionality, and stark, simple forms.</span>
+                    <h4 class="mt-3 text-center">Modern</h4>
                 </div>
 
             </div>
 
 
-            <div className="w-full min-h-screen bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
-                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
+            <div className="w-full h-auto bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
+                <div className="p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/moroccan-4.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage28" />
-                    <h4 class="mt-3">Moroccan </h4>
-                    <span>Moroccan interior design is distinct due to its diverse influences from the country's long and
-                        diverse history; the two main factors which have impacted Moroccan style are religion and
-                        external forces occupying the country. These influences range from Ancient Roman architecture to
-                        modern designs, and are deeply rooted in Morocco's African and Islamic heritages. This made wool
-                        an important part of Moroccan design, as it is
-                        used in rugs and soft, plushy floor cushions. They are also heavily involved in artisanal arts
-                        like pottery, jewelry, and weaving, and the designs carry over into Moroccan interiors through
-                        the use of metals, traditional amulet carvings, and African designs. The group also carries
-                        influences from Islam and spirituality. Interior details like softness and curved archways come
-                        from Morocco's Islamic culture. Their architectural details often use continuous abstract
-                        patterns, geometric shapes, and animal sculptures, which reflect Islam's taboo of worshiping
-                        icons. The Islamic influence also incorporated Portuguese-inspired outdoor gardens.</span>
+                    <h4 class="mt-3 text-center">Moroccan </h4>
                 </div>
 
-                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/industrial-interior-design-2.webp" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage21" />
-                    <h4 class="mt-3">Industrial</h4>
-                    <span>Industrial interior design is the perfect synthesis of form and function. Inspired by the raw
-                        framework in factories, this style usually embraces concealed elements like bricks and concrete,
-                        wiring, pipes, ducting, etc.The beauty of industrial design lies in embracing the imperfections,
-                        wear and tear, and
-                        weathering seen in the materials and finishes. It is the most unpretentious style, laying bare
-                        all its rawness for the world to see and celebrate.</span>
+                    <h4 class="mt-3 text-center">Industrial</h4>
                 </div>
 
-                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/urban-3.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage22" />
-                    <h4 class="mt-3">Urban</h4>
-                    <span>Urban and Rustic are two opposite design styles that you might think could never go together,
-                        but that’s not the case. As you can see, these two very distinct styles do a phenomenal job at
-                        complimenting each other when you mix them together to create an Urban Rustic interior design.
-                        The creative use of metal and concrete, organic lines, and interesting shapes make it easy for
-                        urban designers to create an exciting look for any home.
-                    </span>
+                    <h4 class="mt-3 text-center">Urban</h4>
                 </div>
 
                 <div className="p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/loft.webp" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage23" />
-                    <h4 class="mt-3">Loft</h4>
-                    <span>A loft is a living space made inside a former industrial building. Lofts feature open floor
-                        plans with concrete floors, high ceilings, and large windows for natural light. There are two
-                        types of lofts: hard and soft. Hard lofts, also known as true lofts, are
-                        traditional loft spaces inside renovated commercial buildings with brick walls and exposed
-                        ductwork. This style of hard loft grew in popularity with artists in New York City as spaces to
-                        live and work.</span>
+                    <h4 class="mt-3 text-center">Loft</h4>
                 </div>
 
             </div>
 
 
-            <div className="w-full min-h-screen bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
-                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
+            <div className="w-full h-auto bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
+                <div className="p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/rustic.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage16" />
-                    <h4 className="mt-3">Rustic</h4>
-                    <span>Rustic interior design represents a natural, rough, aged, and casual design style. The
-                        category is broad and incorporates a range of variations on the style, including Tuscan,
-                        coastal, cottage and modern rustic.Most things came straight from the earth and,
-                        therefore, had a naturally organic and rustic nature. In this traditional sense, rustic design
-                        might seem heavy and dark. Today, however, a more contemporary rustic style has emerged with a
-                        fresh and light aesthetic.raw wood is one of the most common materials used to create a rustic
-                        style interior. This can be incorporated into your space with individual pieces of furniture and
-                        in the form of ceiling beams, and wood trims around doors, windows and fireplaces.</span>
+                    <h4 className="mt-3 text-center">Rustic</h4>
                 </div>
 
-                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/scandinavian-interior.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage17" />
-                    <h4 className="mt-3">Scandinavian</h4>
-                    <span>The Scandinavian style of interior design originated in the 1950s and largely evolved from
-                        five Nordic influences, namely Norway, Sweden, Finland, Iceland and Denmark. This modern look
-                        has grown in popularity over the years with the immense contributions of Ingvar Kamprad
-                        (Founder-Ikea), Arne Jacobsen, Hans Wegner, Alvar Aalto and Eero Arnio, all of whom are talented
-                        Scandinavian designers. The style is also known for its attractiveness, functionality and
-                        simplicity.</span>
+                    <h4 className="mt-3 text-center">Scandinavian</h4>
                 </div>
 
-                <div className="md:border-l-1 p-3 h-auto text-justify overflow-hidden">
+                <div className="p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/nordic-interiordesign.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage18" />
-                    <h4 className="mt-3">Nordic</h4>
-                    <span>Scandinavian design expresses its beauty in a simple, functional and warm decorating style,
-                        which mixes whites, neutral colours, and natural woods. Simple lines are combined with a clean
-                        and fresh aesthetic to create cosy and light interiors.However, there are also subtle
-                        differences between the two styles. Some designers feel that Scandinavian design is more
-                        minimalist with functionality at its core, while Nordic design is more homely and influenced by
-                        traditional workmanship and crafts.
-                    </span>
+                    <h4 className="mt-3 text-center">Nordic</h4>
                 </div>
 
                 <div className="p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/swedish-interiordesign.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage19" />
-                    <h4 className="mt-3">Swedish</h4>
-                    <span>Swedish design is often associated with clean functionality and modern, innovative stylings.
-                        Its aesthetic and values stem from the functionalism movement that first emerged in Berlin in
-                        the early 20th century. The beauty of less is more is a central concept. Every line has to be
-                        considered and the quality of material and craftsmanship has to be beyond reproach. Swedish
-                        designers tend to draw inspiration from the nature that surrounds them, not only in terms of the
-                        materials they use but as the muse for their creations.</span>
+                    <h4 className="mt-3 text-center">Swedish</h4>
                 </div>
             </div>
 
