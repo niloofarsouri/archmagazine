@@ -1,4 +1,5 @@
 import PagesHeaderTransparent from "@/components/header-other-pages-transparent";
+import Link from "next/link";
 
 
 
@@ -36,15 +37,19 @@ function Styles() {
             </div>
 
             <div className="w-full h-auto bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
-                <div className="p-3 h-auto text-justify overflow-hidden">
-                    <img src="/images/img/rococco-7.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage32" />
-                    <h4 class="mt-3 text-center">Rococo </h4>
-                </div>
+                <Link href={'/styles/rococo'}>
+                    <div className="p-3 h-auto text-justify overflow-hidden">
+                        <img src="/images/img/rococco-7.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage32" />
+                        <h4 class="mt-3 text-center">Rococo </h4>
+                    </div>
+                </Link>
 
-                <div className="p-3 h-auto text-justify overflow-hidden">
-                    <img src="/images/img/Renaissance-3.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage33" />
-                    <h4 class="mt-3 text-center">Renaissance</h4>
-                </div>
+                <Link href={'/styles/renaissance'}>
+                    <div className="p-3 h-auto text-justify overflow-hidden">
+                        <img src="/images/img/Renaissance-3.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage33" />
+                        <h4 class="mt-3 text-center">Renaissance</h4>
+                    </div>
+                </Link>
 
                 <div className="p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/roman-design.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage34" />
