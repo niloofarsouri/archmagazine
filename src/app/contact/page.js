@@ -18,8 +18,8 @@ function Contact() {
                 </div>
 
 
-                <div className="w-full h-auto mt-10 flex justify-center items-center opacity-70">
-                    <div className="w-4/5 h-[600px] bg-white">
+                <div className="w-full h-auto mt-10 flex justify-center items-center">
+                    <div className="w-4/5 h-[400px] bg-white text-[#080808] opacity-60">
                         <div className="p-6">
                             <h1 className="text-xl mb-4">تماس با ما</h1>
                             <p className="mb-6">اگر مایل به تماس هستید، لطفا با استفاده از اطلاعات زیر با ما تماس بگیرید.</p>

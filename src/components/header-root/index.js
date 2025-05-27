@@ -15,12 +15,10 @@ function RootHeader() {
                     </Link>
 
                     <Link href={'/contact'}>
-                        {/* <li className="p-4">Contact Us</li> */}
                         <li className="p-4">تماس با ما</li>
                     </Link>
 
                     <Link href={'/styles'}>
-                        {/* <li className="p-4">Styles in Architecture</li> */}
                         <li className="p-4">سبک شناسی در معماری</li>
                     </Link>
 

@@ -69,10 +69,12 @@ function Styles() {
 
 
             <div className="w-full h-auto bg-[#FBECEA] text-[#080808] p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 dark:text-white dark:bg-[#080808]">
-                <div className="p-3 h-auto text-justify overflow-hidden">
-                    <img src="/images/img/gothic-4.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage30" />
-                    <h4 class="mt-3 text-center">Gothic</h4>
-                </div>
+                <Link href={'/sub-styles/gothic'}>
+                    <div className="p-3 h-auto text-justify overflow-hidden">
+                        <img src="/images/img/gothic-4.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage30" />
+                        <h4 class="mt-3 text-center">Gothic</h4>
+                    </div>
+                </Link>
 
                 <div className="p-3 h-auto text-justify overflow-hidden">
                     <img src="/images/img/Neoclassical-style-2.jpg" className="hover:scale-110 duration-150 ease-in-out hover:opacity-30" alt="archImage27" />
