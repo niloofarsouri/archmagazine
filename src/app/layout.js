@@ -1,6 +1,5 @@
 import "./globals.css";
 import HeaderBurger from "@/components/header-burger";
-// import { headers } from "next/headers";
 
 
 export const metadata = {
