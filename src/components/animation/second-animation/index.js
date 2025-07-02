@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 
 
 
@@ -41,12 +41,12 @@ function SecondAnimation() {
                 </div>
             </div>
 
-            {/* <!-- responsive mode --> */}
-            <div className="flex-col items-center md:hidden">
+
+
+            {/* <div className="flex-col items-center justify-center md:hidden">
                 <p className="w-full p-2 text-justify text-xl">سبک معماری مجموعه ای از ویژگی ها و ویژگی هایی است که یک ساختمان یا سازه را قابل توجه یا از نظر تاریخی قابل شناسایی می کند. به طور کلی سبک شناسی در معماری یک زیر مجموعه از سبک ها در هنرهای تجسمی  است، و بیشتر سبک ها در معماری ارتباط نزدیکی با سبک های گسترده تر دوره هنر معاصر دارند.</p>
-                <img src="/images/animationImg/glassArt.jpg" className="w-full" alt="archImage11" />
-            </div>
-            {/* <!-- responsive mode --> */}
+                <img src="/images/img/arch1.jpg" className="w-full m-2" alt="archImage" />
+            </div> */}
 
         </>
     )

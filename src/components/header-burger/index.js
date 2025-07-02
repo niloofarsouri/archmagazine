@@ -52,7 +52,7 @@ function HeaderBurger() {
                                     </Link>
 
                                     <Link href={'/projects'}>
-                                        <li className="p-4">پروژه ها</li>
+                                        <li className="p-4">پروژه ها</li> 
                                     </Link>
                                 </ul>
 

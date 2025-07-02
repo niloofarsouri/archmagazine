@@ -1,3 +1,4 @@
+// import FooterResponsive from "@/components/footer-responsive";
 import "./globals.css";
 import HeaderBurger from "@/components/header-burger";
 
@@ -29,7 +30,7 @@ export default async function RootLayout({ children }) {
 
         <HeaderBurger />
         {children}
-        {/* <Myfooter /> */}
+        {/* <FooterResponsive/>   */}
 
       </body>
     </html>

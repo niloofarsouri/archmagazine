@@ -3,12 +3,12 @@ import Image from "next/image"
 
 
 
-function Myfooter() {
+function FooterResponsive() {
 
 
     return (
         <>
-            <div className="flex justify-between items-center font-extralight dark:border-t-1 bg-[#080808] text-white">
+            <div className="flex justify-between items-center font-extralight dark:border-t-1 bg-[#b48888] text-white md:hidden">
                 <div className="flex-1/3 h-[300px] p-8 flex justify-baseline items-center">
                     <ul className="flex flex-col justify-center items-baseline ">
                         <Link href={'/'}>
@@ -33,10 +33,10 @@ function Myfooter() {
                     </ul>
                 </div>
 
-                <div className="flex-1/3 h-[300px] p-8 flex justify-baseline items-center">
+                {/* <div className="flex-1/3 h-[300px] p-8 flex justify-baseline items-center">
                     <h3>درباره ما</h3>
                     <p></p>
-                </div>
+                </div> */}
 
                 <div className="flex-1/3 h-auto bg-transparent flex-col items-center justify-center">
                     <div className="flex justify-center items-center">
@@ -55,4 +55,4 @@ function Myfooter() {
 }
 
 
-export default Myfooter
+export default FooterResponsive
