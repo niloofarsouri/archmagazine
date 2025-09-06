@@ -19,7 +19,7 @@ export default async function RootLayout({ children }) {
   return (
 
     <html lang="en">
-      <body className="dark:bg-[#080808] dark:text-[#e0d2b7]">
+      <body className="dark:bg-[#080808] dark:text-[#e0d2b7] m-0 p-0">
 
         {/* {
           cookie ?
