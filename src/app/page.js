@@ -20,7 +20,7 @@ export default function Home() {
 
             <div className="absolute text-white opacity-55">
               {/* <p className="hidden md:block relative font-primary opacity-55 md:text-[140px] md:bottom-[130px] lg:text-[160px] lg:bottom-[200px] xl:text-[160px] xl:bottom-[200px]">ARCH MAG</p> */}
-              <p className="hidden lg:block relative font-primary opacity-55 lg:text-[235px] bottom-35">ARCH MAG</p>
+              <p className="hidden lg:block relative font-primary opacity-55 lg:text-[235px] bottom-15">ARCH MAG</p>
               <p className=" lg:hidden relative font-primary opacity-55 text-[150px] bottom-30">ARCH</p>
             </div>
 
